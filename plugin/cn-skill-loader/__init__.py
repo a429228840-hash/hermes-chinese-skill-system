@@ -28,6 +28,9 @@ _cache: Dict[str, List[Tuple[str, str, List[str]]]] = {}
 _cache_at: Dict[str, float] = {}
 _CACHE_TTL = 60  # seconds before rebuild
 
+# Reverse index: YAML registered name → directory name (for skill_view fallback)
+_dir_by_name: Dict[str, str] = {}
+
 # Research keywords — only clearly research-intent phrases.
 # Avoid high-frequency daily words (最新, 现状, 趋势) that trigger
 # false positives on queries like "最新的Python版本有什么特性".
@@ -182,6 +185,9 @@ def _build_cache(skills_root: str) -> List[Tuple[str, str, List[str]]]:
         if fm:
             name = fm.get("name") or fallback_name
             desc = fm.get("description") or ""
+            # Record dir_name reverse index
+            if name != fallback_name:
+                _dir_by_name[name] = fallback_name
             kw: List[str] = []
             # keywords_cn lives under metadata → hermes → keywords_cn
             meta = fm.get("metadata")
@@ -308,6 +314,18 @@ def pre_llm_call(**kwargs: Any) -> Optional[str]:
                     from tools.skills_tool import skill_view
                     raw = skill_view(name)
                     data = json.loads(raw) if isinstance(raw, str) else {}
+                    if not (isinstance(data, dict) and data.get("success")):
+                        # Fallback: skill_view by YAML name failed (directory name
+                        # may differ, e.g. YAML name "ecc-code-reviewer" but dir
+                        # "code-reviewer"). Try resolving by directory name.
+                        dir_name = _dir_by_name.get(name)
+                        if dir_name and dir_name != name:
+                            logger.debug(
+                                "skill_view('%s') failed, trying dir name '%s'",
+                                name, dir_name,
+                            )
+                            raw = skill_view(dir_name)
+                            data = json.loads(raw) if isinstance(raw, str) else {}
                     if isinstance(data, dict) and data.get("success"):
                         content = data.get("content", "")
                         if content:
