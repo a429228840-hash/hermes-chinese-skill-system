@@ -2,161 +2,83 @@
   "_meta": {
     "version": "1.0.0",
     "total_skills": 387,
-    "chinese_descriptions": 387,
-    "description": "Hermes 技能中文索引 — 技能名 → 中文描述 + 中文关键词",
-    "license": "MIT",
-    "last_updated": "2026-06-08"
+    "chinese_descriptions": 292
   },
   "skills": {
     "apikey-image-gen": {
-      "description_cn": "图像生成编辑：通过 Hermes Web UI 调用配置的 fun-codex 供应商进行 AI 图片生成、参考图生成和图像编辑操作。",
-      "keywords_cn": [
-        "图像生成",
-        "图像编辑",
-        "AI绘画",
-        "Hermes"
-      ],
-      "has_chinese": true
+      "description_cn": "Generate or edit images through Hermes Web UI using the selected/requested profile's fun-codex provider from config.yaml.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "apple-notes": {
-      "description_cn": "Apple 笔记管理：通过 memo 命令行工具创建、搜索和编辑 Apple Notes，笔记可通过 iCloud 在苹果设备间同步。",
-      "keywords_cn": [
-        "Apple Notes",
-        "笔记管理",
-        "macOS",
-        "iCloud"
-      ],
-      "has_chinese": true
+      "description_cn": "Manage Apple Notes via memo CLI: create, search, edit.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "apple-reminders": {
-      "description_cn": "Apple 提醒管理：使用 remindctl 命令行工具添加、列出和完成提醒事项，任务通过 iCloud 多设备同步。",
-      "keywords_cn": [
-        "Apple Reminders",
-        "提醒事项",
-        "任务管理",
-        "macOS"
-      ],
-      "has_chinese": true
+      "description_cn": "Apple Reminders via remindctl: add, list, complete.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "findmy": {
-      "description_cn": "设备定位追踪：通过 macOS 的 Find My 应用追踪 Apple 设备和 AirTag 的位置，支持 AppleScript 自动化操作。",
-      "keywords_cn": [
-        "Find My",
-        "设备定位",
-        "AirTag",
-        "追踪"
-      ],
-      "has_chinese": true
+      "description_cn": "Track Apple devices/AirTags via FindMy.app on macOS.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "imessage": {
-      "description_cn": "iMessage 收发：通过 macOS 的 imsg 命令行工具发送和接收 iMessage 及短信，支持查看对话历史。",
-      "keywords_cn": [
-        "iMessage",
-        "短信",
-        "消息",
-        "macOS"
-      ],
-      "has_chinese": true
+      "description_cn": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "macos-computer-use": {
-      "description_cn": "macOS 桌面操控：后台驱动 macOS 桌面进行截图、鼠标点击、键盘输入和滚动拖拽，不干扰用户当前操作。",
-      "keywords_cn": [
-        "macOS",
-        "桌面自动化",
-        "后台操控",
-        "computer_use"
-      ],
-      "has_chinese": true
+      "description_cn": "Drive the macOS desktop in the background — screenshots, mouse, keyboard,\nscroll, drag — without stealing the user's cursor, keyboard focus, or\nSpace. Works with any tool-capable model. Load this skill whenever the\n`computer_use` tool is available.\n",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "claude-code": {
-      "description_cn": "Claude Code 编码代理：将编码任务委托给 Anthropic 的 Claude Code CLI 处理，支持功能开发和 PR 管理。",
-      "keywords_cn": [
-        "Claude Code",
-        "AI编码",
-        "任务委托",
-        "Anthropic"
-      ],
-      "has_chinese": true
+      "description_cn": "Delegate coding to Claude Code CLI (features, PRs).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "codex": {
-      "description_cn": "OpenAI Codex 编码代理：将编码重构等任务委托给 OpenAI Codex CLI 处理，支持功能开发和代码审查。",
-      "keywords_cn": [
-        "Codex",
-        "AI编码",
-        "OpenAI",
-        "代码审查"
-      ],
-      "has_chinese": true
+      "description_cn": "Delegate coding to OpenAI Codex CLI (features, PRs).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "hermes-agent": {
-      "description_cn": "Hermes Agent 框架：配置、扩展或贡献开源的 AI 智能体框架，支持技能系统、持久记忆和多平台网关。",
-      "keywords_cn": [
-        "Hermes Agent",
-        "AI框架",
-        "配置",
-        "技能系统"
-      ],
-      "has_chinese": true
+      "description_cn": "Configure, extend, or contribute to Hermes Agent.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "kanban-codex-lane": {
-      "description_cn": "看板 Codex 通道：Hermes 看板工作线程将 Codex CLI 用作隔离实现通道，Hermes 保持任务生命周期所有权。",
-      "keywords_cn": [
-        "看板",
-        "Codex",
-        "工作通道",
-        "任务编排"
-      ],
-      "has_chinese": true
+      "description_cn": "Use when a Hermes Kanban worker wants to run Codex CLI as an isolated implementation lane while Hermes keeps ownership of task lifecycle, reconciliation, testing, and handoff.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "opencode": {
-      "description_cn": "OpenCode 编码代理：将编码审查任务委托给 OpenCode CLI 处理，支持提供商无关的开源 AI 编码。",
-      "keywords_cn": [
-        "OpenCode",
-        "AI编码",
-        "代码审查",
-        "开源"
-      ],
-      "has_chinese": true
+      "description_cn": "Delegate coding to OpenCode CLI (features, PR review).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "architecture-diagram": {
-      "description_cn": "架构图生成：生成暗色主题的专业 SVG 架构图、云基础设施图，输出为内嵌 CSS 的独立 HTML 文件。",
-      "keywords_cn": [
-        "架构图",
-        "SVG",
-        "云架构",
-        "基础设施"
-      ],
-      "has_chinese": true
+      "description_cn": "Dark-themed SVG architecture/cloud/infra diagrams as HTML.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "ascii-art": {
-      "description_cn": "ASCII 艺术创作：利用 pyfiglet、cowsay、boxes 等工具生成文本横幅、字符画及图片转 ASCII 艺术。",
-      "keywords_cn": [
-        "ASCII艺术",
-        "字符画",
-        "pyfiglet",
-        "文本艺术"
-      ],
-      "has_chinese": true
+      "description_cn": "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "ascii-video": {
-      "description_cn": "ASCII 视频制作：将视频或音频转换为彩色 ASCII 字符动画，输出 MP4 或 GIF 格式的复古风格视频。",
-      "keywords_cn": [
-        "ASCII视频",
-        "字符动画",
-        "视频转换",
-        "复古风格"
-      ],
-      "has_chinese": true
+      "description_cn": "ASCII video: convert video/audio to colored ASCII MP4/GIF.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "baoyu-article-illustrator": {
-      "description_cn": "文章配图生成：分析文章内容，在关键位置生成类型、风格和调色板保持一致的精致配图。",
-      "keywords_cn": [
-        "文章配图",
-        "插图生成",
-        "AI绘图",
-        "风格一致"
-      ],
-      "has_chinese": true
+      "description_cn": "Article illustrations: type × style × palette consistency.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "baoyu-comic": {
       "description_cn": "Knowledge comics (知识漫画): educational, biography, tutorial.",
@@ -169,144 +91,78 @@
       "has_chinese": true
     },
     "claude-design": {
-      "description_cn": "Claude 设计工作流：设计一次性 HTML 页面成品，包括落地页、演示文稿和交互原型，注重设计品味。",
-      "keywords_cn": [
-        "设计",
-        "HTML",
-        "原型",
-        "UI设计"
-      ],
-      "has_chinese": true
+      "description_cn": "Design one-off HTML artifacts (landing, deck, prototype).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "comfyui": {
-      "description_cn": "ComfyUI 媒体生成：使用 ComfyUI 安装管理节点模型并运行工作流，生成图像视频和音频。",
-      "keywords_cn": [
-        "ComfyUI",
-        "图像生成",
-        "AI绘画",
-        "工作流"
-      ],
-      "has_chinese": true
+      "description_cn": "Generate images, video, and audio with ComfyUI — install, launch, manage nodes/models, run workflows with parameter injection. Uses the official comfy-cli for lifecycle and direct REST/WebSocket API for execution.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "ideation": {
-      "description_cn": "创意构思生成：通过创造性约束条件激发项目灵感，为编码艺术或写作方向提供多样化创意方案。",
-      "keywords_cn": [
-        "创意构思",
-        "项目灵感",
-        "头脑风暴",
-        "创意方向"
-      ],
-      "has_chinese": true
+      "description_cn": "Generate project ideas via creative constraints.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "design-md": {
-      "description_cn": "设计规范编写：按照 Google DESIGN.md 规范编写验证和导出设计令牌文件，支持 Tailwind 和 DTCG 格式。",
-      "keywords_cn": [
-        "DESIGN.md",
-        "设计令牌",
-        "设计规范",
-        "UI系统"
-      ],
-      "has_chinese": true
+      "description_cn": "Author/validate/export Google's DESIGN.md token spec files.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "excalidraw": {
-      "description_cn": "Excalidraw 图表制作：编写标准 JSON 元素生成手绘风格的架构流程图和时序图，无需账户即可直接打开浏览。",
-      "keywords_cn": [
-        "Excalidraw",
-        "手绘图表",
-        "流程图",
-        "架构图"
-      ],
-      "has_chinese": true
+      "description_cn": "Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "humanizer": {
-      "description_cn": "文本人化处理：识别并去除 AI 写作的典型痕迹和套话，让文字听起来自然真实有个人风格。",
-      "keywords_cn": [
-        "文本人化",
-        "去除AI味",
-        "写作润色",
-        "自然语言"
-      ],
-      "has_chinese": true
+      "description_cn": "Humanize text: strip AI-isms and add real voice.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "p5js": {
-      "description_cn": "p5.js 创意编程：创建生成式艺术着色器效果和交互式 3D 可视化，输出为 HTML 或动画文件。",
-      "keywords_cn": [
-        "p5.js",
-        "创意编程",
-        "生成式艺术",
-        "交互可视化"
-      ],
-      "has_chinese": true
+      "description_cn": "p5.js sketches: gen art, shaders, interactive, 3D.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "pixel-art": {
-      "description_cn": "像素画制作：将图片转换为复古像素风格，支持 NES、Game Boy、PICO-8 等经典硬件色板。",
-      "keywords_cn": [
-        "像素画",
-        "复古风格",
-        "游戏色板",
-        "图片转换"
-      ],
-      "has_chinese": true
+      "description_cn": "Pixel art w/ era palettes (NES, Game Boy, PICO-8).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "popular-web-designs": {
-      "description_cn": "流行网页设计系统：提供 Stripe、Linear、Vercel 等 54 套真实设计系统的完整 HTML/CSS 代码模板。",
+      "description_cn": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.",
       "keywords_cn": [
         "Web设计",
-        "设计系统",
-        "UI模板",
-        "CSS"
+        "UI参考",
+        "设计系统"
       ],
-      "has_chinese": true
+      "has_chinese": false
     },
     "pretext": {
-      "description_cn": "Pretext 创意演示：利用 @chenglou/pretext 的 DOM 无关文字排版库制作文本艺术游戏和动态排版演示。",
-      "keywords_cn": [
-        "文字排版",
-        "创意演示",
-        "文本艺术",
-        "Pretext"
-      ],
-      "has_chinese": true
+      "description_cn": "Use when building creative browser demos with @chenglou/pretext — DOM-free text layout for ASCII art, typographic flow around obstacles, text-as-geometry games, kinetic typography, and text-powered generative art. Produces single-file HTML demos by default.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "sketch": {
-      "description_cn": "快速 HTML 草图：一次性生成 2-3 个交互式设计变体以便对比视觉方向，适合探索阶段的快速原型。",
-      "keywords_cn": [
-        "草图",
-        "原型设计",
-        "UI变体",
-        "快速验证"
-      ],
-      "has_chinese": true
+      "description_cn": "Throwaway HTML mockups: 2-3 design variants to compare.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "songwriting-and-ai-music": {
-      "description_cn": "歌曲创作与 AI 音乐：提供作词技巧和 Suno AI 音乐提示词生成，支持歌曲结构编排和歌词创作。",
-      "keywords_cn": [
-        "歌曲创作",
-        "AI音乐",
-        "Suno",
-        "作词"
-      ],
-      "has_chinese": true
+      "description_cn": "Songwriting craft and Suno AI music prompts.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "touchdesigner-mcp": {
-      "description_cn": "TouchDesigner 实时视觉控制：通过 twozero MCP 协议在 TouchDesigner 中创建节点设置参数和搭建实时视觉。",
-      "keywords_cn": [
-        "TouchDesigner",
-        "MCP",
-        "实时视觉",
-        "生成艺术"
-      ],
-      "has_chinese": true
+      "description_cn": "Control a running TouchDesigner instance via twozero MCP — create operators, set parameters, wire connections, execute Python, build real-time visuals. 36 native tools.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "jupyter-live-kernel": {
-      "description_cn": "Jupyter 实时代码执行：通过实时 Jupyter 内核进行增量式 Python 探索编程，变量跨步骤持久化保留状态。",
-      "keywords_cn": [
-        "Jupyter",
-        "交互式编程",
-        "数据分析",
-        "Python"
-      ],
-      "has_chinese": true
+      "description_cn": "Iterative Python via live Jupyter kernel (hamelnb).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "jd-anti-detection-pipeline": {
       "description_cn": "京东风控对抗管线 — 搜索与详情解耦、SafeBrowser 验证码冷却、慢速详情拉取、Tabler 暗色看板",
@@ -333,43 +189,24 @@
       "has_chinese": true
     },
     "kanban-orchestrator": {
-      "description_cn": "看板编排器：提供任务分解指南与反诱惑规则，用于在 Kanban 系统中路由分配工作并协调多智能体。",
-      "keywords_cn": [
-        "看板编排",
-        "任务分解",
-        "Kanban",
-        "多智能体"
-      ],
-      "has_chinese": true
+      "description_cn": "Decomposition playbook + anti-temptation rules for an orchestrator profile routing work through Kanban. The \"don't do the work yourself\" rule and the basic lifecycle are auto-injected into every kanban worker's system prompt; this skill is the deeper playbook when you're specifically playing the orchestrator role.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "kanban-worker": {
-      "description_cn": "看板工作线程：详解 Hermes Kanban 工作线程在执行任务时的常见陷阱、典型场景示例和边界情况处理。",
-      "keywords_cn": [
-        "看板工人",
-        "任务执行",
-        "Kanban",
-        "工作流程"
-      ],
-      "has_chinese": true
+      "description_cn": "Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle itself is auto-injected into every worker's system prompt as KANBAN_GUIDANCE (from agent/prompt_builder.py); this skill is what you load when you want deeper detail on specific scenarios.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "webhook-subscriptions": {
-      "description_cn": "Webhook 订阅管理：创建动态 Webhook 订阅，让外部服务通过 HTTP 事件触发 Hermes 代理自动运行。",
-      "keywords_cn": [
-        "Webhook",
-        "事件驱动",
-        "自动化",
-        "集成"
-      ],
-      "has_chinese": true
+      "description_cn": "Webhook subscriptions: event-driven agent runs.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "dogfood": {
-      "description_cn": "Web应用探索性QA测试：在浏览器中系统化发现Bug、采集证据截图并生成结构化测试报告。",
-      "keywords_cn": [
-        "QA测试",
-        "浏览器",
-        "缺陷报告"
-      ],
-      "has_chinese": true
+      "description_cn": "Exploratory QA of web apps: find bugs, evidence, reports.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "ecc-architect": {
       "description_cn": "软件架构设计专家。系统设计、可扩展性、技术决策、ADR 文档",
@@ -1485,12 +1322,15 @@
       "description_cn": "前端开发模式：React 和 Next.js 的前端开发模式，包括状态管理、性能优化和 UI 最佳实践",
       "keywords_cn": [
         "前端开发",
+        "CSS",
+        "布局",
+        "样式",
+        "Tailwind",
         "React",
         "Next.js",
-        "性能优化",
         "UI",
-        "状态管理",
-        "组件设计"
+        "组件设计",
+        "响应式"
       ],
       "has_chinese": true
     },
@@ -2497,9 +2337,11 @@
       "keywords_cn": [
         "Python测试",
         "pytest",
+        "单元测试",
         "TDD",
         "Mocking",
-        "测试覆盖率"
+        "测试覆盖率",
+        "Python单元测试"
       ],
       "has_chinese": true
     },
@@ -3209,114 +3051,64 @@
       "has_chinese": true
     },
     "himalaya": {
-      "description_cn": "终端邮件客户端：通过Himalaya CLI使用IMAP/SMTP协议在命令行中收发、搜索和管理邮件。",
-      "keywords_cn": [
-        "邮件",
-        "终端",
-        "IMAP",
-        "SMTP"
-      ],
-      "has_chinese": true
+      "description_cn": "Himalaya CLI: IMAP/SMTP email from terminal.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "minecraft-modpack-server": {
-      "description_cn": "Minecraft模组服务器托管：一键部署CurseForge和Modrinth整合包，含配置优化和自动备份。",
-      "keywords_cn": [
-        "游戏",
-        "Minecraft",
-        "服务器"
-      ],
-      "has_chinese": true
+      "description_cn": "Host modded Minecraft servers (CurseForge, Modrinth).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "pokemon-player": {
-      "description_cn": "宝可梦AI自动游玩：通过无头模拟器和内存读取实现宝可梦游戏的完全自主操作与决策。",
-      "keywords_cn": [
-        "游戏",
-        "模拟器",
-        "宝可梦"
-      ],
-      "has_chinese": true
+      "description_cn": "Play Pokemon via headless emulator + RAM reads.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "codebase-inspection": {
-      "description_cn": "代码库规模分析：使用pygount统计代码行数、语言分布和注释比例，快速了解项目构成。",
-      "keywords_cn": [
-        "代码分析",
-        "LOC",
-        "pygount"
-      ],
-      "has_chinese": true
+      "description_cn": "Inspect codebases w/ pygount: LOC, languages, ratios.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "github-auth": {
-      "description_cn": "GitHub认证配置：支持HTTPS个人访问令牌、SSH密钥和gh CLI三种方式，一键完成GitHub登录。",
-      "keywords_cn": [
-        "GitHub认证",
-        "SSH",
-        "Token"
-      ],
-      "has_chinese": true
+      "description_cn": "GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "github-code-review": {
-      "description_cn": "GitHub代码审查：通过gh或REST API审阅PR差异、提交行内评论并给出正式评审结论。",
-      "keywords_cn": [
-        "代码审查",
-        "PR",
-        "GitHub"
-      ],
-      "has_chinese": true
+      "description_cn": "Review PRs: diffs, inline comments via gh or REST.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "github-issues": {
-      "description_cn": "GitHub Issue管理：创建、分类标记、分配指派和搜索GitHub问题，支持gh和REST双模式。",
-      "keywords_cn": [
-        "GitHub",
-        "Issue",
-        "项目管理"
-      ],
-      "has_chinese": true
+      "description_cn": "Create, triage, label, assign GitHub issues via gh or REST.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "github-pr-workflow": {
-      "description_cn": "GitHub PR工作流：覆盖从分支创建、代码提交、PR开启、CI监控到合并的全生命周期。",
-      "keywords_cn": [
-        "PR工作流",
-        "GitHub",
-        "代码合并"
-      ],
-      "has_chinese": true
+      "description_cn": "GitHub PR lifecycle: branch, commit, open, CI, merge.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "github-repo-management": {
-      "description_cn": "GitHub仓库管理：克隆、创建、复刻仓库，配置远程和发布版本，管理Actions和Secrets。",
-      "keywords_cn": [
-        "Git",
-        "仓库管理",
-        "GitHub"
-      ],
-      "has_chinese": true
+      "description_cn": "Clone/create/fork repos; manage remotes, releases.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "grok-image-to-video": {
-      "description_cn": "Grok图片转视频：通过Hermes Web UI调用xAI Grok Imagine将本地图片动画化为短视频MP4。",
-      "keywords_cn": [
-        "图片转视频",
-        "xAI",
-        "Grok"
-      ],
-      "has_chinese": true
+      "description_cn": "Animate a local image into a short mp4 video through Hermes Web UI using xAI Grok Imagine.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "hyperframes": {
-      "description_cn": "AI视频生成：使用HTML、CSS和JavaScript构建视频场景，通过HyperFrames渲染输出MP4动画。",
-      "keywords_cn": [
-        "AI视频",
-        "动画",
-        "HTML渲染"
-      ],
-      "has_chinese": true
+      "description_cn": "Create AI videos with HyperFrames in Hermes using HTML, CSS, and JavaScript compositions, then validate and render them to MP4. Use for short video intros, cinematic trailers, product promos, subtitle animations, HUD/tech visuals, web-to-video work, and motion graphics.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "markdown-viewer": {
-      "description_cn": "Markdown可视化引擎：在Markdown中创建PlantUML架构图、Vega图表、信息卡片和思维导图。",
-      "keywords_cn": [
-        "图表",
-        "可视化",
-        "PlantUML",
-        "Vega"
-      ],
-      "has_chinese": true
+      "description_cn": "Create rich diagrams, data visualizations, technical architecture views, and editorial content cards directly in Markdown using the Markdown Viewer Agent Skills pack. Use for Mermaid-like diagram requests, PlantUML architecture diagrams, Vega charts, JSON Canvas maps, infographics, UML, cloud/network/security/data/IoT diagrams, and polished Markdown documentation visuals.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "caveman": {
       "description_cn": "极简沟通模式。用最简单直白的方式表达复杂想法 Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler, articles, and pleasantries while keeping full technical accuracy. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman.",
@@ -3439,328 +3231,186 @@
       "has_chinese": true
     },
     "native-mcp": {
-      "description_cn": "MCP客户端集成：连接MCP服务器并自动发现注册工具，支持stdio和HTTP传输协议。",
-      "keywords_cn": [
-        "MCP协议",
-        "工具注册",
-        "服务器连接"
-      ],
-      "has_chinese": true
+      "description_cn": "MCP client: connect servers, register tools (stdio/HTTP).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "gif-search": {
-      "description_cn": "GIF动图搜索：通过Tenor API使用curl和jq搜索、预览和下载GIF动图。",
-      "keywords_cn": [
-        "GIF搜索",
-        "动图",
-        "Tenor"
-      ],
-      "has_chinese": true
+      "description_cn": "Search/download GIFs from Tenor via curl + jq.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "heartmula": {
-      "description_cn": "开源AI音乐生成：HeartMuLa根据歌词和风格标签生成完整歌曲，媲美Suno的开源替代方案。",
-      "keywords_cn": [
-        "音乐生成",
-        "AI",
-        "歌词"
-      ],
-      "has_chinese": true
+      "description_cn": "HeartMuLa: Suno-like song generation from lyrics + tags.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "songsee": {
-      "description_cn": "音频特征可视化：通过CLI命令生成频谱图、梅尔谱、色度图和MFCC等多面板分析图。",
-      "keywords_cn": [
-        "音频",
-        "频谱图",
-        "可视化"
-      ],
-      "has_chinese": true
+      "description_cn": "Audio spectrograms/features (mel, chroma, MFCC) via CLI.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "spotify": {
-      "description_cn": "Spotify音乐控制：播放搜索、队列管理、歌单创建和跨设备传输的全方位音乐操控。",
-      "keywords_cn": [
-        "Spotify",
-        "音乐播放",
-        "歌单"
-      ],
-      "has_chinese": true
+      "description_cn": "Spotify: play, search, queue, manage playlists and devices.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "youtube-content": {
-      "description_cn": "YouTube内容处理：提取视频转录文本，自动生成章节摘要、推文串和博客文章。",
+      "description_cn": "YouTube transcripts to summaries, threads, blogs.",
       "keywords_cn": [
         "YouTube",
         "转录",
         "摘要"
       ],
-      "has_chinese": true
+      "has_chinese": false
     },
     "evaluating-llms-harness": {
-      "description_cn": "LLM基准评测：使用lm-evaluation-harness在MMLU、GSM8K等60+学术基准上评估模型性能。",
-      "keywords_cn": [
-        "基准评测",
-        "MMLU",
-        "模型评估"
-      ],
-      "has_chinese": true
+      "description_cn": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "weights-and-biases": {
-      "description_cn": "ML实验追踪平台：通过W&B记录训练指标、自动化超参数搜索、管理模型注册表和仪表盘。",
-      "keywords_cn": [
-        "W&B",
-        "实验追踪",
-        "MLOps"
-      ],
-      "has_chinese": true
+      "description_cn": "W&B: log ML experiments, sweeps, model registry, dashboards.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "huggingface-hub": {
-      "description_cn": "HuggingFace命令行工具：使用hf CLI搜索、下载、上传模型和数据集，管理Spaces和仓库。",
+      "description_cn": "HuggingFace hf CLI: search/download/upload models, datasets.",
       "keywords_cn": [
         "HuggingFace",
         "模型下载",
         "数据集"
       ],
-      "has_chinese": true
+      "has_chinese": false
     },
     "llama-cpp": {
-      "description_cn": "本地GGUF模型推理：使用llama.cpp运行量化模型，支持CPU、GPU和HuggingFace Hub发现。",
-      "keywords_cn": [
-        "llama.cpp",
-        "GGUF",
-        "本地推理"
-      ],
-      "has_chinese": true
+      "description_cn": "llama.cpp local GGUF inference + HF Hub model discovery.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "obliteratus": {
-      "description_cn": "LLM去拒绝机制：使用diff-in-means等机械可解释性技术移除开源模型的安全拒绝行为。",
-      "keywords_cn": [
-        "去审查",
-        "模型修改",
-        "可解释性"
-      ],
-      "has_chinese": true
+      "description_cn": "OBLITERATUS: abliterate LLM refusals (diff-in-means).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "serving-llms-vllm": {
-      "description_cn": "高性能LLM推理服务：vLLM通过PagedAttention和连续批处理实现高吞吐模型部署。",
-      "keywords_cn": [
-        "vLLM",
-        "模型服务",
-        "高吞吐"
-      ],
-      "has_chinese": true
+      "description_cn": "vLLM: high-throughput LLM serving, OpenAI API, quantization.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "audiocraft-audio-generation": {
-      "description_cn": "AI音频生成引擎：AudioCraft实现文本到音乐和文本到音效生成，支持旋律条件控制。",
-      "keywords_cn": [
-        "音频生成",
-        "文本转音乐",
-        "AudioCraft"
-      ],
-      "has_chinese": true
+      "description_cn": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "segment-anything-model": {
-      "description_cn": "零样本图像分割：SAM通过点、框或自动方式对任意图像中的物体进行精准分割。",
-      "keywords_cn": [
-        "图像分割",
-        "SAM",
-        "零样本"
-      ],
-      "has_chinese": true
+      "description_cn": "SAM: zero-shot image segmentation via points, boxes, masks.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "dspy": {
-      "description_cn": "声明式LM编程框架：DSPy通过签名和优化器自动改进提示词，构建RAG和Agent系统。",
-      "keywords_cn": [
-        "DSPy",
-        "提示优化",
-        "RAG"
-      ],
-      "has_chinese": true
+      "description_cn": "DSPy: declarative LM programs, auto-optimize prompts, RAG.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "obsidian": {
-      "description_cn": "Obsidian笔记管理：在知识库中读取、搜索、创建和编辑Markdown笔记，支持维基链接。",
+      "description_cn": "Read, search, create, and edit notes in the Obsidian vault.",
       "keywords_cn": [
         "Obsidian",
         "笔记",
         "知识管理"
       ],
-      "has_chinese": true
+      "has_chinese": false
     },
     "airtable": {
-      "description_cn": "Airtable数据库操作：通过curl调用REST API进行记录的增删改查、筛选和批量更新。",
-      "keywords_cn": [
-        "Airtable",
-        "数据库",
-        "电子表格"
-      ],
-      "has_chinese": true
+      "description_cn": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "google-workspace": {
-      "description_cn": "Google Workspace集成：通过OAuth管理Gmail邮件、日历事件、云端硬盘、文档和表格。",
-      "keywords_cn": [
-        "Google Workspace",
-        "邮件",
-        "文档"
-      ],
-      "has_chinese": true
+      "description_cn": "Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "linear": {
-      "description_cn": "Linear项目管理：通过GraphQL API管理问题、项目和团队，支持完整CRUD和状态流转。",
-      "keywords_cn": [
-        "Linear",
-        "项目管理",
-        "Issue"
-      ],
-      "has_chinese": true
+      "description_cn": "Linear: manage issues, projects, teams via GraphQL + curl.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "maps": {
-      "description_cn": "地图服务：通过 OpenStreetMap/OSRM 查询地理编码、兴趣点、路线和时区信息。",
-      "keywords_cn": [
-        "地图",
-        "地理编码",
-        "路线规划",
-        "OSRM",
-        "OpenStreetMap"
-      ],
-      "has_chinese": true
+      "description_cn": "Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "nano-pdf": {
-      "description_cn": "PDF 编辑：通过 nano-pdf 命令行动态修改 PDF 文本、标题和错别字，支持自然语言提示。",
-      "keywords_cn": [
-        "PDF编辑",
-        "命令行",
-        "自然语言",
-        "文本修改"
-      ],
-      "has_chinese": true
+      "description_cn": "Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "notion": {
-      "description_cn": "Notion 集成：通过 Notion API 和 ntn CLI 管理页面、数据库、Markdown 和 Workers。",
-      "keywords_cn": [
-        "Notion",
-        "API",
-        "数据库",
-        "工作流"
-      ],
-      "has_chinese": true
+      "description_cn": "Notion API + ntn CLI: pages, databases, markdown, Workers.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "ocr-and-documents": {
-      "description_cn": "OCR 文档处理：从 PDF 和扫描件中提取文本，支持 pymupdf 和 marker-pdf。",
-      "keywords_cn": [
-        "OCR",
-        "文档处理",
-        "文本提取",
-        "PDF"
-      ],
-      "has_chinese": true
+      "description_cn": "Extract text from PDFs/scans (pymupdf, marker-pdf).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "powerpoint": {
-      "description_cn": "PowerPoint 操作：创建、读取和编辑 PPTX 演示文稿、幻灯片、备注及模板。",
-      "keywords_cn": [
-        "PowerPoint",
-        "PPTX",
-        "演示文稿",
-        "幻灯片编辑"
-      ],
-      "has_chinese": true
+      "description_cn": "Create, read, edit .pptx decks, slides, notes, templates.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "teams-meeting-pipeline": {
-      "description_cn": "Teams 会议流水线：通过 Hermes CLI 管理会议摘要、检查流水线状态、重放任务和 Graph 订阅。",
-      "keywords_cn": [
-        "Teams",
-        "会议摘要",
-        "流水线",
-        "Microsoft Graph"
-      ],
-      "has_chinese": true
+      "description_cn": "Operate the Teams meeting summary pipeline via Hermes CLI — summarize meetings, inspect pipeline status, replay jobs, manage Microsoft Graph subscriptions.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "godmode": {
-      "description_cn": "LLM 越狱：使用 Parseltongue、GODMODE、ULTRAPLINIAN 等技术突破大模型安全限制。",
-      "keywords_cn": [
-        "越狱",
-        "LLM安全",
-        "提示注入",
-        "红队测试"
-      ],
-      "has_chinese": true
+      "description_cn": "Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "remotion": {
-      "description_cn": "AI 视频创作：用 Remotion 和 React 制作可编辑视频项目，支持竖屏短视频、产品演示、字幕配音和 MP4 渲染。",
-      "keywords_cn": [
-        "视频创作",
-        "Remotion",
-        "React",
-        "AI视频",
-        "MP4渲染"
-      ],
-      "has_chinese": true
+      "description_cn": "Create editable AI video projects with Remotion and React, then preview and render them to MP4. Use for vertical short videos, product demos, story-driven animations, HUD/tech visuals, feed ads, tutorial videos, subtitles, voiceover, sound effects, and code-based video iteration.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "arxiv": {
-      "description_cn": "学术论文搜索：通过关键词、作者、分类或 ID 检索 arXiv 论文。",
-      "keywords_cn": [
-        "arXiv",
-        "学术搜索",
-        "论文检索",
-        "科研"
-      ],
-      "has_chinese": true
+      "description_cn": "Search arXiv papers by keyword, author, category, or ID.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "blogwatcher": {
-      "description_cn": "博客监控：通过 blogwatcher-cli 工具跟踪博客和 RSS/Atom 订阅更新。",
-      "keywords_cn": [
-        "博客监控",
-        "RSS",
-        "Atom",
-        "订阅跟踪"
-      ],
-      "has_chinese": true
+      "description_cn": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "llm-wiki": {
-      "description_cn": "LLM 知识库：构建和查询 Karpathy 互联 Markdown 知识库系统。",
-      "keywords_cn": [
-        "知识库",
-        "LLM",
-        "Markdown",
-        "Karpathy"
-      ],
-      "has_chinese": true
+      "description_cn": "Karpathy's LLM Wiki: build/query interlinked markdown KB.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "polymarket": {
-      "description_cn": "预测市场查询：获取 Polymarket 上的市场、价格、订单簿和历史数据。",
-      "keywords_cn": [
-        "预测市场",
-        "Polymarket",
-        "价格查询",
-        "订单簿"
-      ],
-      "has_chinese": true
+      "description_cn": "Query Polymarket: markets, prices, orderbooks, history.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "research-paper-writing": {
-      "description_cn": "学术论文写作：从设计到投稿全流程撰写 NeurIPS/ICML/ICLR 级别机器学习论文。",
-      "keywords_cn": [
-        "论文写作",
-        "机器学习",
-        "学术投稿",
-        "NeurIPS"
-      ],
-      "has_chinese": true
+      "description_cn": "Write ML papers for NeurIPS/ICML/ICLR: design→submit.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "openhue": {
-      "description_cn": "智能灯光控制：通过 OpenHue CLI 管理 Philips Hue 灯光、场景和房间。",
-      "keywords_cn": [
-        "智能家居",
-        "Philips Hue",
-        "灯光控制",
-        "OpenHue"
-      ],
-      "has_chinese": true
+      "description_cn": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "xurl": {
-      "description_cn": "X/Twitter 集成：通过 xurl CLI 发布帖子、搜索、私信、媒体管理和 v2 API 调用。",
-      "keywords_cn": [
-        "Twitter",
-        "X",
-        "社交媒体",
-        "API",
-        "CLI"
-      ],
-      "has_chinese": true
+      "description_cn": "X/Twitter via xurl CLI: post, search, DM, media, v2 API.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "chinese-skill-system-optimization": {
       "description_cn": "优化 Hermes 技能系统对中文用户的匹配能力和使用体验。覆盖审计、决策树设计、代码修复、内容翻译、架构升级全链路。包含 SOUL.md 决策树、自动加载器（链式加载+缓存）、中文关键词、研究守卫、渐进披露、skill_search、用量统计、ECC 方案对比等子系统。",
@@ -3774,164 +3424,90 @@
       "has_chinese": true
     },
     "comprehensive-codebase-audit": {
-      "description_cn": "代码库全面审计：探索陌生项目结构，评估架构、代码质量、测试和安全性，生成分级报告和优化建议。",
-      "keywords_cn": [
-        "代码审计",
-        "架构评估",
-        "质量分析",
-        "安全审查"
-      ],
-      "has_chinese": true
+      "description_cn": "Full-project audit for an unfamiliar codebase: explore structure, read docs+source+tests, assess architecture/code quality/testing/security, produce a structured severity-graded report with prioritized recommendations.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "debugging-hermes-tui-commands": {
-      "description_cn": "Hermes TUI 调试：调试斜杠命令的 Python 后端、网关和 Ink UI 前端。",
-      "keywords_cn": [
-        "TUI调试",
-        "Hermes",
-        "斜杠命令",
-        "Ink UI"
-      ],
-      "has_chinese": true
+      "description_cn": "Debug Hermes TUI slash commands: Python, gateway, Ink UI.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "hermes-agent-skill-authoring": {
-      "description_cn": "技能编写工具：创作 SKILL.md 文件，管理前言、验证器、结构和中文本地化。",
-      "keywords_cn": [
-        "技能创作",
-        "SKILL.md",
-        "验证器",
-        "本地化"
-      ],
-      "has_chinese": true
+      "description_cn": "Author in-repo SKILL.md: frontmatter, validator, structure, Chinese localization.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "hermes-external-skill-integration": {
-      "description_cn": "外部技能集成：将 ECC 等第三方技能库整合到 Hermes Agent，支持组件分类、链接策略和跨平台兼容。",
-      "keywords_cn": [
-        "技能集成",
-        "第三方库",
-        "MCP配置",
-        "跨平台"
-      ],
-      "has_chinese": true
+      "description_cn": "Integrate third-party skill repositories (ECC, community skill packs, monorepos) into Hermes Agent — component triage, symlink vs copy strategies, MCP config merging, and format compatibility checks. Windows/Linux/macOS.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "hermes-s6-container-supervision": {
-      "description_cn": "容器监控维护：修改和调试 Hermes Agent Docker 中的 s6-overlay 监控树，添加新服务与网关。",
-      "keywords_cn": [
-        "Docker",
-        "s6-overlay",
-        "容器监控",
-        "Hermes"
-      ],
-      "has_chinese": true
+      "description_cn": "Modify, debug, or extend the s6-overlay supervision tree inside the Hermes Agent Docker image — adding new services, debugging profile gateways, understanding the Architecture B main-program pattern.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "node-inspect-debugger": {
-      "description_cn": "Node.js 调试：通过 --inspect 和 Chrome DevTools 协议 CLI 调试 Node.js 应用。",
-      "keywords_cn": [
-        "Node.js",
-        "调试",
-        "Chrome DevTools",
-        "--inspect"
-      ],
-      "has_chinese": true
+      "description_cn": "Debug Node.js via --inspect + Chrome DevTools Protocol CLI.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "plan": {
-      "description_cn": "计划模式：编写 Markdown 计划保存至 .hermes/plans/，仅规划不执行。",
-      "keywords_cn": [
-        "计划",
-        "规划",
-        "Markdown",
-        "项目管理"
-      ],
-      "has_chinese": true
+      "description_cn": "Plan mode: write markdown plan to .hermes/plans/, no exec.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "python-debugpy": {
-      "description_cn": "Python 调试：使用 pdb REPL 和 debugpy 远程调试（DAP 协议）。",
-      "keywords_cn": [
-        "Python调试",
-        "pdb",
-        "debugpy",
-        "DAP"
-      ],
-      "has_chinese": true
+      "description_cn": "Debug Python: pdb REPL + debugpy remote (DAP).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "requesting-code-review": {
-      "description_cn": "代码审查：提交前执行安全扫描、质量门禁、代码规范检查和自动修复。",
+      "description_cn": "Pre-commit review: security scan, quality gates, auto-fix.",
       "keywords_cn": [
         "代码审查",
+        "PR审查",
+        "代码质量",
         "安全扫描",
-        "质量门禁",
-        "自动修复"
+        "质量门禁"
       ],
-      "has_chinese": true
+      "has_chinese": false
     },
     "scraper-safety-guardrails": {
-      "description_cn": "爬虫安全护栏：构建 AI 爬虫防检测体系，防止触发风控、请求过快和误操作。",
-      "keywords_cn": [
-        "爬虫安全",
-        "防检测",
-        "风控规避",
-        "AI代理"
-      ],
-      "has_chinese": true
+      "description_cn": "Build defense-in-depth anti-detection guardrails for AI-agent-operated web scrapers — prevent agents from triggering risk control through browser abuse, rapid requests, or accidental production access.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "software-adoption-evaluation": {
-      "description_cn": "软件采纳评估：评估第三方工具和框架，匹配用户环境后给出明确采纳建议及理由。",
-      "keywords_cn": [
-        "软件评估",
-        "技术选型",
-        "环境匹配",
-        "采纳建议"
-      ],
-      "has_chinese": true
+      "description_cn": "Evaluate third-party software, tools, libraries, and frameworks for adoption. Map each component against the user's specific environment (OS, AI agent type, stack) before installing anything. Produce clear recommendations with rationale.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "spike": {
-      "description_cn": "技术验证：在正式开发前通过快速实验验证技术想法和架构方案的可行性。",
-      "keywords_cn": [
-        "技术验证",
-        "原型",
-        "快速实验",
-        "可行性"
-      ],
-      "has_chinese": true
+      "description_cn": "Throwaway experiments to validate an idea before build.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "subagent-driven-development": {
-      "description_cn": "子代理开发：通过 delegate_task 子代理执行计划，采用两阶段审查确保代码质量。",
-      "keywords_cn": [
-        "子代理",
-        "任务委派",
-        "两阶段审查",
-        "自动化开发"
-      ],
-      "has_chinese": true
+      "description_cn": "Execute plans via delegate_task subagents (2-stage review).",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "systematic-debugging": {
-      "description_cn": "系统化调试：四阶段根因分析调试法，在修复前充分理解缺陷本质和影响范围。",
-      "keywords_cn": [
-        "系统调试",
-        "根因分析",
-        "四阶段",
-        "缺陷定位"
-      ],
-      "has_chinese": true
+      "description_cn": "4-phase root cause debugging: understand bugs before fixing.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "test-driven-development": {
-      "description_cn": "测试驱动开发：遵循红-绿-重构循环，先写测试后写代码的 TDD 方法论。",
-      "keywords_cn": [
-        "TDD",
-        "测试驱动",
-        "红绿重构",
-        "测试先行"
-      ],
-      "has_chinese": true
+      "description_cn": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "writing-plans": {
-      "description_cn": "编写实施计划：将需求拆解为可执行任务，规划实现路径、测试策略并编写代码。",
-      "keywords_cn": [
-        "实施计划",
-        "任务拆解",
-        "路径规划",
-        "编码"
-      ],
-      "has_chinese": true
+      "description_cn": "Write implementation plans: bite-sized tasks, paths, code.",
+      "keywords_cn": [],
+      "has_chinese": false
     },
     "yuanbao": {
       "description_cn": "Yuanbao (元宝) groups: @mention users, query info/members.",
