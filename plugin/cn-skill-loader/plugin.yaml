@@ -1,0 +1,6 @@
+name: cn-skill-loader
+version: 1.0.0
+description: "中文技能自动加载器 — 决策树匹配 + 链式加载 + 研究守卫 + skill_search 中文搜索。替换 conversation_loop.py 的内联自动加载器，pip 升级后不丢失。"
+author: "Hermes Agent (auto-generated)"
+hooks:
+  - pre_llm_call
