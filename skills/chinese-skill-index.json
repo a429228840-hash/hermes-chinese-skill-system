@@ -1,0 +1,3515 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "total_skills": 387,
+    "chinese_descriptions": 292,
+    "description": "Hermes 技能中文索引 — 技能名 → 中文描述 + 中文关键词",
+    "license": "MIT"
+  },
+  "skills": {
+    "apikey-image-gen": {
+      "description_cn": "Generate or edit images through Hermes Web UI using the selected/requested profile's fun-codex provider from config.yaml.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "apple-notes": {
+      "description_cn": "Manage Apple Notes via memo CLI: create, search, edit.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "apple-reminders": {
+      "description_cn": "Apple Reminders via remindctl: add, list, complete.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "findmy": {
+      "description_cn": "Track Apple devices/AirTags via FindMy.app on macOS.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "imessage": {
+      "description_cn": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "macos-computer-use": {
+      "description_cn": "Drive the macOS desktop in the background — screenshots, mouse, keyboard,\nscroll, drag — without stealing the user's cursor, keyboard focus, or\nSpace. Works with any tool-capable model. Load this skill whenever the\n`computer_use` tool is available.\n",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "claude-code": {
+      "description_cn": "Delegate coding to Claude Code CLI (features, PRs).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "codex": {
+      "description_cn": "Delegate coding to OpenAI Codex CLI (features, PRs).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "hermes-agent": {
+      "description_cn": "Configure, extend, or contribute to Hermes Agent.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "kanban-codex-lane": {
+      "description_cn": "Use when a Hermes Kanban worker wants to run Codex CLI as an isolated implementation lane while Hermes keeps ownership of task lifecycle, reconciliation, testing, and handoff.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "opencode": {
+      "description_cn": "Delegate coding to OpenCode CLI (features, PR review).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "architecture-diagram": {
+      "description_cn": "Dark-themed SVG architecture/cloud/infra diagrams as HTML.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "ascii-art": {
+      "description_cn": "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "ascii-video": {
+      "description_cn": "ASCII video: convert video/audio to colored ASCII MP4/GIF.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "baoyu-article-illustrator": {
+      "description_cn": "Article illustrations: type × style × palette consistency.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "baoyu-comic": {
+      "description_cn": "Knowledge comics (知识漫画): educational, biography, tutorial.",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "baoyu-infographic": {
+      "description_cn": "Infographics: 21 layouts x 21 styles (信息图, 可视化).",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "claude-design": {
+      "description_cn": "Design one-off HTML artifacts (landing, deck, prototype).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "comfyui": {
+      "description_cn": "Generate images, video, and audio with ComfyUI — install, launch, manage nodes/models, run workflows with parameter injection. Uses the official comfy-cli for lifecycle and direct REST/WebSocket API for execution.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "ideation": {
+      "description_cn": "Generate project ideas via creative constraints.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "design-md": {
+      "description_cn": "Author/validate/export Google's DESIGN.md token spec files.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "excalidraw": {
+      "description_cn": "Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "humanizer": {
+      "description_cn": "Humanize text: strip AI-isms and add real voice.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "p5js": {
+      "description_cn": "p5.js sketches: gen art, shaders, interactive, 3D.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "pixel-art": {
+      "description_cn": "Pixel art w/ era palettes (NES, Game Boy, PICO-8).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "popular-web-designs": {
+      "description_cn": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.",
+      "keywords_cn": [
+        "Web设计",
+        "UI参考",
+        "设计系统"
+      ],
+      "has_chinese": false
+    },
+    "pretext": {
+      "description_cn": "Use when building creative browser demos with @chenglou/pretext — DOM-free text layout for ASCII art, typographic flow around obstacles, text-as-geometry games, kinetic typography, and text-powered generative art. Produces single-file HTML demos by default.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "sketch": {
+      "description_cn": "Throwaway HTML mockups: 2-3 design variants to compare.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "songwriting-and-ai-music": {
+      "description_cn": "Songwriting craft and Suno AI music prompts.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "touchdesigner-mcp": {
+      "description_cn": "Control a running TouchDesigner instance via twozero MCP — create operators, set parameters, wire connections, execute Python, build real-time visuals. 36 native tools.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "jupyter-live-kernel": {
+      "description_cn": "Iterative Python via live Jupyter kernel (hamelnb).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "jd-anti-detection-pipeline": {
+      "description_cn": "京东风控对抗管线 — 搜索与详情解耦、SafeBrowser 验证码冷却、慢速详情拉取、Tabler 暗色看板",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "jd-spy-data-enrichment": {
+      "description_cn": "jd-spy 数据维度扩展 — 从搜索页和详情页提取评论数、促销标签、自营标识、排名历史等字段，追踪评论增长趋势",
+      "keywords_cn": [
+        "京东数据",
+        "商品信息",
+        "数据采集"
+      ],
+      "has_chinese": true
+    },
+    "jd-spy-engine-merge": {
+      "description_cn": "jd-spy 双引擎合并方案 — CDP 主引擎 + OpenCLI 兜底引擎 + SlowMist 安全审计，统一编排",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "jd-spy-iteration-orchestrator": {
+      "description_cn": "jd-spy 全自动迭代编排器 — 每次迭代从 plan → execute → verify → reflect 闭环，自动推进 roadmap",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "kanban-orchestrator": {
+      "description_cn": "Decomposition playbook + anti-temptation rules for an orchestrator profile routing work through Kanban. The \"don't do the work yourself\" rule and the basic lifecycle are auto-injected into every kanban worker's system prompt; this skill is the deeper playbook when you're specifically playing the orchestrator role.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "kanban-worker": {
+      "description_cn": "Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle itself is auto-injected into every worker's system prompt as KANBAN_GUIDANCE (from agent/prompt_builder.py); this skill is what you load when you want deeper detail on specific scenarios.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "webhook-subscriptions": {
+      "description_cn": "Webhook subscriptions: event-driven agent runs.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "dogfood": {
+      "description_cn": "Exploratory QA of web apps: find bugs, evidence, reports.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "ecc-architect": {
+      "description_cn": "软件架构设计专家。系统设计、可扩展性、技术决策、ADR 文档",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "ecc-code-explorer": {
+      "description_cn": "代码库探索专家。执行路径追踪、依赖映射、功能定位",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "ecc-code-reviewer": {
+      "description_cn": "代码审查专家。质量、安全、性能、最佳实践全面审查",
+      "keywords_cn": [
+        "代码审查",
+        "代码质量",
+        "安全审查",
+        "Code Review",
+        "PR审查"
+      ],
+      "has_chinese": true
+    },
+    "ecc-docs-lookup": {
+      "description_cn": "文档/API 查找专家。框架、库、API 文档快速检索",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "ecc-performance-optimizer": {
+      "description_cn": "性能分析与优化专家。瓶颈识别、缓存策略、优化方案",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "ecc-planner": {
+      "description_cn": "复杂功能/重构规划专家。任务分解、评估、里程碑规划",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "accessibility": {
+      "description_cn": "无障碍设计与审计：遵循 WCAG 2.2 标准，确保 Web 和原生平台（iOS/Android）界面的可感知、可操作、可理解和健壮性",
+      "keywords_cn": [
+        "无障碍",
+        "WCAG",
+        "ARIA",
+        "包容性设计",
+        "可访问性"
+      ],
+      "has_chinese": true
+    },
+    "agent-architecture-audit": {
+      "description_cn": "Agent 架构审计：对隐藏在包装层、过期记忆、重试循环背后的 Agent 和 LLM 系统进行全面诊断",
+      "keywords_cn": [
+        "Agent 审计",
+        "架构诊断",
+        "LLM",
+        "故障排查",
+        "系统检查"
+      ],
+      "has_chinese": true
+    },
+    "agent-eval": {
+      "description_cn": "Agent 评测：在可复现任务上对编码 Agent（Claude Code、Aider、Codex 等）进行横向对比，输出数据驱动的选型决策",
+      "keywords_cn": [
+        "Agent 评测",
+        "横向对比",
+        "回归测试",
+        "模型选型",
+        "基准测试"
+      ],
+      "has_chinese": true
+    },
+    "agent-harness-construction": {
+      "description_cn": "Agent 框架构建：设计和优化 AI Agent 的行动空间、工具调用、错误恢复与收敛完成能力",
+      "keywords_cn": [
+        "Agent 框架",
+        "行动空间",
+        "工具调用",
+        "错误恢复",
+        "收敛"
+      ],
+      "has_chinese": true
+    },
+    "agent-introspection-debugging": {
+      "description_cn": "Agent 自省调试：当 Agent 反复失败、消耗 Token 无进展或偏离任务时，提供结构化自检工作流",
+      "keywords_cn": [
+        "Agent 调试",
+        "自省",
+        "Token 优化",
+        "循环检测",
+        "故障恢复"
+      ],
+      "has_chinese": true
+    },
+    "agent-payment-x402": {
+      "description_cn": "Agent 支付集成：为 AI Agent 添加 x402 支付能力，支持按任务预算、支出控制和自主托管钱包，集成 Base 和 X Layer 网络",
+      "keywords_cn": [
+        "Agent 支付",
+        "x402",
+        "加密支付",
+        "钱包",
+        "预算控制"
+      ],
+      "has_chinese": true
+    },
+    "agent-sort": {
+      "description_cn": "ECC 技能排序：通过并行的仓库感知审查，将技能、命令、规则、钩子分类到 DAILY 和 LIBRARY 桶中，生成基于证据的 ECC 安装计划",
+      "keywords_cn": [
+        "ECC",
+        "技能分类",
+        "安装规划",
+        "仓库审计",
+        "配置优化"
+      ],
+      "has_chinese": true
+    },
+    "agentic-engineering": {
+      "description_cn": "Agent 工程范式：以评估驱动执行、任务分解和成本感知模型路由的方式运作 Agent 工程师",
+      "keywords_cn": [
+        "Agent 工程",
+        "评估驱动",
+        "任务分解",
+        "模型路由",
+        "成本优化"
+      ],
+      "has_chinese": true
+    },
+    "agentic-os": {
+      "description_cn": "Agent 操作系统：在 Claude Code 上构建持久化多 Agent 操作系统，涵盖内核架构、专业 Agent、文件记忆、定时自动化和状态管理",
+      "keywords_cn": [
+        "Agent OS",
+        "多 Agent",
+        "持久化",
+        "自动化",
+        "内存管理"
+      ],
+      "has_chinese": true
+    },
+    "ai-first-engineering": {
+      "description_cn": "AI 优先工程：面向 AI Agent 生成大量实现代码的团队，定义工程运营模式和协作规范",
+      "keywords_cn": [
+        "AI 工程",
+        "人机协作",
+        "工程规范",
+        "代码生成",
+        "团队运营"
+      ],
+      "has_chinese": true
+    },
+    "ai-regression-testing": {
+      "description_cn": "AI 回归测试：针对 AI 辅助开发的回归测试策略，包括沙箱模式 API 测试、自动化 Bug 检查、以及捕捉 AI 盲点的模式",
+      "keywords_cn": [
+        "回归测试",
+        "AI 测试",
+        "沙箱测试",
+        "Bug 检测",
+        "盲点检测"
+      ],
+      "has_chinese": true
+    },
+    "android-clean-architecture": {
+      "description_cn": "Android 清洁架构：Android 和 Kotlin Multiplatform 项目的 Clean Architecture 模式，涵盖模块结构、依赖规则、用例和仓库层",
+      "keywords_cn": [
+        "Android",
+        "Clean Architecture",
+        "Kotlin Multiplatform",
+        "模块化",
+        "依赖规则"
+      ],
+      "has_chinese": true
+    },
+    "angular-developer": {
+      "description_cn": "Angular 开发：生成 Angular 代码并提供架构指导，涵盖响应式编程、表单、依赖注入、路由、SSR、无障碍、动画和测试",
+      "keywords_cn": [
+        "Angular",
+        "响应式编程",
+        "Signals",
+        "前端开发",
+        "TypeScript"
+      ],
+      "has_chinese": true
+    },
+    "anti-detection-crawler-guard": {
+      "description_cn": "反爬风控防护：SafeBrowser + Mock Fixture + 配置 Kill-Switch 三层防线，防止 Agent 在测试爬虫时触发目标网站风控",
+      "keywords_cn": [
+        "反爬虫",
+        "风控防护",
+        "SafeBrowser",
+        "Mock",
+        "安全守卫"
+      ],
+      "has_chinese": true
+    },
+    "api-connector-builder": {
+      "description_cn": "API 连接器构建：按照目标仓库现有集成模式精确匹配，构建新的 API 连接器或提供商，避免引入第二套架构",
+      "keywords_cn": [
+        "API 连接器",
+        "集成模式",
+        "架构匹配",
+        "API 开发",
+        "适配器"
+      ],
+      "has_chinese": true
+    },
+    "api-design": {
+      "description_cn": "REST API 设计：生产级 API 设计模式，涵盖资源命名、状态码、分页、过滤、错误响应、版本控制和限流",
+      "keywords_cn": [
+        "REST API",
+        "API 设计",
+        "资源命名",
+        "版本控制",
+        "限流",
+        "编写API",
+        "接口开发",
+        "后端开发"
+      ],
+      "has_chinese": true
+    },
+    "architecture-decision-records": {
+      "description_cn": "架构决策记录：在 Claude Code 会话中自动捕捉架构决策，记录上下文、备选方案和理由，生成结构化 ADR 日志",
+      "keywords_cn": [
+        "ADR",
+        "架构决策",
+        "决策记录",
+        "技术文档",
+        "知识管理"
+      ],
+      "has_chinese": true
+    },
+    "article-writing": {
+      "description_cn": "文章写作：撰写文章、指南、博客、教程、新闻通讯等长文内容，基于样本或品牌指南保持独特风格和语调一致性",
+      "keywords_cn": [
+        "内容创作",
+        "文章写作",
+        "品牌语调",
+        "长文写作",
+        "内容营销"
+      ],
+      "has_chinese": true
+    },
+    "automation-audit-ops": {
+      "description_cn": "自动化审计运维：以证据优先的方式盘点 ECC 自动化资产，检测重叠、故障、冗余或缺失的作业、钩子、连接器和 MCP 服务器",
+      "keywords_cn": [
+        "自动化审计",
+        "ECC 运维",
+        "资产盘点",
+        "重叠检测",
+        "运维优化"
+      ],
+      "has_chinese": true
+    },
+    "autonomous-agent-harness": {
+      "description_cn": "自主 Agent 系统：将 Claude Code 转化为完全自主的 Agent 系统，支持持久记忆、定时操作、计算机使用和任务队列",
+      "keywords_cn": [
+        "自主 Agent",
+        "Claude Code",
+        "定时任务",
+        "持久记忆",
+        "任务队列"
+      ],
+      "has_chinese": true
+    },
+    "autonomous-loops": {
+      "description_cn": "自主循环模式：从简单顺序管道到 RFC 驱动的多 Agent DAG 系统的 Claude Code 自主循环架构模式",
+      "keywords_cn": [
+        "自主循环",
+        "多 Agent",
+        "DAG",
+        "管道",
+        "自动化工作流"
+      ],
+      "has_chinese": true
+    },
+    "backend-patterns": {
+      "description_cn": "后端架构模式：适用于 Node.js、Express 和 Next.js API 路由的后端架构、API 设计、数据库优化和服务端最佳实践",
+      "keywords_cn": [
+        "后端",
+        "Node.js",
+        "Express",
+        "Next.js",
+        "API 设计"
+      ],
+      "has_chinese": true
+    },
+    "benchmark": {
+      "description_cn": "性能基准测试：测量性能基线、检测 PR 前后的回归问题，以及比较不同技术栈方案",
+      "keywords_cn": [
+        "基准测试",
+        "性能",
+        "回归检测",
+        "技术栈对比",
+        "性能分析",
+        "性能基准",
+        "性能测试",
+        "性能优化",
+        "负载测试"
+      ],
+      "has_chinese": true
+    },
+    "benchmark-optimization-loop": {
+      "description_cn": "基准优化循环：通过重复测量测试来加速系统、尝试变体、递归优化和选择最佳实现方案",
+      "keywords_cn": [
+        "性能优化",
+        "基准测试",
+        "递归优化",
+        "延迟优化",
+        "成本优化"
+      ],
+      "has_chinese": true
+    },
+    "blender-motion-state-inspection": {
+      "description_cn": "Blender 运动状态检查：检查角色、骨骼、姿态、动画重定向、地面接触、朝向和模型-运动对齐",
+      "keywords_cn": [
+        "Blender",
+        "3D 动画",
+        "角色检查",
+        "运动重定向",
+        "姿态检查"
+      ],
+      "has_chinese": true
+    },
+    "blueprint": {
+      "description_cn": "工程蓝图：将一句话目标转化为多会话、多 Agent 工程项目的逐步构建计划，含对抗性审查、依赖图和防反模式目录",
+      "keywords_cn": [
+        "蓝图",
+        "项目规划",
+        "多 Agent",
+        "依赖图",
+        "任务分解"
+      ],
+      "has_chinese": true
+    },
+    "brand-voice": {
+      "description_cn": "品牌语调：从真实帖子、文章、发布说明等来源提取写作风格，并在内容、推广和社交工作流中复用，保持语调一致性",
+      "keywords_cn": [
+        "品牌语调",
+        "写作风格",
+        "内容一致性",
+        "品牌形象",
+        "文案风格"
+      ],
+      "has_chinese": true
+    },
+    "browser-automation-safety": {
+      "description_cn": "浏览器自动化安全防护：反风控请求限速、Mock/Fixture 模式、浏览器生命周期守卫，防止 Agent 操作触发平台风控",
+      "keywords_cn": [
+        "浏览器自动化",
+        "风控防护",
+        "请求限速",
+        "Mock 模式",
+        "安全守卫"
+      ],
+      "has_chinese": true
+    },
+    "browser-qa": {
+      "description_cn": "浏览器 QA 测试：部署后通过浏览器自动化进行视觉测试和 UI 交互验证",
+      "keywords_cn": [
+        "浏览器测试",
+        "视觉测试",
+        "UI 验证",
+        "自动化测试",
+        "QA"
+      ],
+      "has_chinese": true
+    },
+    "bun-runtime": {
+      "description_cn": "Bun 运行时：作为运行时、包管理器、打包器和测试运行器的 Bun，何时选择 Bun 而非 Node，迁移指南和 Vercel 支持",
+      "keywords_cn": [
+        "Bun",
+        "运行时",
+        "JavaScript",
+        "Node.js 替代",
+        "包管理器"
+      ],
+      "has_chinese": true
+    },
+    "canary-watch": {
+      "description_cn": "金丝雀监控：部署后监控验证 URL，检查 HTTP 端点、SSE 流、静态资源、控制台错误和性能回归",
+      "keywords_cn": [
+        "金丝雀部署",
+        "健康检查",
+        "性能监控",
+        "SSE",
+        "post-deploy"
+      ],
+      "has_chinese": true
+    },
+    "carrier-relationship-management": {
+      "description_cn": "承运商关系管理：管理承运商组合、谈判运费、跟踪绩效、分配货运和制定物流策略的经验化专业知识",
+      "keywords_cn": [
+        "承运商管理",
+        "物流",
+        "货运谈判",
+        "绩效评分",
+        "供应链"
+      ],
+      "has_chinese": true
+    },
+    "cisco-ios-patterns": {
+      "description_cn": "Cisco IOS 审查：Cisco IOS 和 IOS-XE 的 Show 命令、配置层级、通配符掩码、ACL 放置、接口规范和变更窗口验证模式",
+      "keywords_cn": [
+        "Cisco",
+        "IOS",
+        "网络配置",
+        "ACL",
+        "网络运维"
+      ],
+      "has_chinese": true
+    },
+    "ck": {
+      "description_cn": "项目记忆管理：为 Claude Code 提供持久的按项目记忆，自动加载上下文、追踪 Git 活动会话，写入本地记忆",
+      "keywords_cn": [
+        "项目记忆",
+        "Claude Code",
+        "上下文管理",
+        "Git 追踪",
+        "本地存储"
+      ],
+      "has_chinese": true
+    },
+    "claude-devfleet": {
+      "description_cn": "多 Agent 编排：通过 Claude DevFleet 规划项目、在隔离工作树中派发并行 Agent、监控进度和读取结构化报告",
+      "keywords_cn": [
+        "多 Agent",
+        "DevFleet",
+        "并行开发",
+        "Agent 编排",
+        "工作树"
+      ],
+      "has_chinese": true
+    },
+    "click-path-audit": {
+      "description_cn": "点击路径审计：追踪每个用户按钮/触点经过完整状态变化序列，发现独立正常但相互抵消或产生错误状态的 Bug",
+      "keywords_cn": [
+        "点击路径",
+        "状态跟踪",
+        "UI Bug",
+        "行为审计",
+        "交互测试"
+      ],
+      "has_chinese": true
+    },
+    "clickhouse-io": {
+      "description_cn": "ClickHouse 数据库：ClickHouse 数据库模式、查询优化、分析和高性能分析工作负载的最佳实践",
+      "keywords_cn": [
+        "ClickHouse",
+        "数据库",
+        "查询优化",
+        "分析",
+        "OLAP"
+      ],
+      "has_chinese": true
+    },
+    "code-tour": {
+      "description_cn": "代码导览：创建针对角色的 CodeTour .tour 文件，逐步导览代码库，用于新手上路、架构讲解、PR 审查和根因分析",
+      "keywords_cn": [
+        "CodeTour",
+        "代码导览",
+        "新手上路",
+        "架构讲解",
+        "知识传递"
+      ],
+      "has_chinese": true
+    },
+    "codebase-onboarding": {
+      "description_cn": "代码库入职：分析陌生代码库，生成结构化入职指南，包括架构地图、关键入口点、约定和初始 CLAUDE.md",
+      "keywords_cn": [
+        "代码库入门",
+        "架构分析",
+        "入职指南",
+        "CLAUDE.md",
+        "项目上手"
+      ],
+      "has_chinese": true
+    },
+    "coding-standards": {
+      "description_cn": "编码规范：跨项目的基线编码约定，涵盖命名、可读性、不可变性和代码质量审查",
+      "keywords_cn": [
+        "编码规范",
+        "代码质量",
+        "命名约定",
+        "代码审查",
+        "可读性"
+      ],
+      "has_chinese": true
+    },
+    "compose-multiplatform-patterns": {
+      "description_cn": "Compose 多平台模式：KMP 项目的 Compose Multiplatform 和 Jetpack Compose 模式，涵盖状态管理、导航、主题、性能和平台特定 UI",
+      "keywords_cn": [
+        "Compose Multiplatform",
+        "Jetpack Compose",
+        "KMP",
+        "跨平台 UI",
+        "状态管理"
+      ],
+      "has_chinese": true
+    },
+    "configure-ecc": {
+      "description_cn": "ECC 配置安装器：Everything Claude Code 的交互式安装器，引导选择安装技能和规则到用户级或项目级目录，验证路径并可选优化",
+      "keywords_cn": [
+        "ECC",
+        "安装配置",
+        "技能管理",
+        "路径验证",
+        "交互式安装"
+      ],
+      "has_chinese": true
+    },
+    "connections-optimizer": {
+      "description_cn": "社交关系优化：审查优先的 X 和 LinkedIn 网络整理，提供取关/关注建议以及以真实语调撰写的渠道定向触达消息",
+      "keywords_cn": [
+        "社交网络",
+        "关系管理",
+        "LinkedIn",
+        "X (Twitter)",
+        "人脉优化"
+      ],
+      "has_chinese": true
+    },
+    "content-engine": {
+      "description_cn": "内容引擎：为 X、LinkedIn、TikTok、YouTube 和新闻通讯创建平台原生内容体系，支持跨平台内容改编和多平台活动",
+      "keywords_cn": [
+        "内容创作",
+        "社交媒体",
+        "跨平台",
+        "内容日历",
+        "多平台分发"
+      ],
+      "has_chinese": true
+    },
+    "content-hash-cache-pattern": {
+      "description_cn": "内容哈希缓存：使用 SHA-256 内容哈希缓存昂贵的文件处理结果，路径无关、自动失效，具有服务层分离",
+      "keywords_cn": [
+        "缓存",
+        "SHA-256",
+        "哈希",
+        "自动失效",
+        "服务层"
+      ],
+      "has_chinese": true
+    },
+    "context-budget": {
+      "description_cn": "上下文预算审计：审计 Claude Code 上下文窗口的消耗，识别臃肿和冗余组件，生成优化建议以减少 Token 占用",
+      "keywords_cn": [
+        "上下文优化",
+        "Token 预算",
+        "Claude Code",
+        "内存审计",
+        "性能优化"
+      ],
+      "has_chinese": true
+    },
+    "continuous-agent-loop": {
+      "description_cn": "持续 Agent 循环：带质量门控、评估和恢复控制的持续自主 Agent 循环模式",
+      "keywords_cn": [
+        "持续循环",
+        "自主 Agent",
+        "质量门控",
+        "评估",
+        "恢复控制"
+      ],
+      "has_chinese": true
+    },
+    "continuous-learning": {
+      "description_cn": "持续学习（已弃用）：旧版 v1 停止钩子技能提取器，已由 continuous-learning-v2 取代",
+      "keywords_cn": [
+        "持续学习",
+        "已弃用",
+        "技能提取",
+        "v1"
+      ],
+      "has_chinese": true
+    },
+    "continuous-learning-v2": {
+      "description_cn": "持续学习 v2：基于直觉的观察学习系统，通过钩子记录会话，创建带置信度评分的原子直觉，并演化为技能/命令/Agent",
+      "keywords_cn": [
+        "持续学习",
+        "直觉学习",
+        "钩子系统",
+        "技能演化",
+        "置信度评分"
+      ],
+      "has_chinese": true
+    },
+    "cost-aware-llm-pipeline": {
+      "description_cn": "LLM 成本优化：LLM API 使用成本优化模式，包括按任务复杂度模型路由、预算跟踪、重试逻辑和提示缓存",
+      "keywords_cn": [
+        "LLM 成本",
+        "模型路由",
+        "预算跟踪",
+        "提示缓存",
+        "成本优化"
+      ],
+      "has_chinese": true
+    },
+    "cost-tracking": {
+      "description_cn": "成本追踪：从本地数据库追踪 Claude Code 的 Token 使用量、支出和预算，支持按项目、工具、会话和日期分析",
+      "keywords_cn": [
+        "成本追踪",
+        "Token 统计",
+        "预算管理",
+        "支出分析",
+        "Claude Code"
+      ],
+      "has_chinese": true
+    },
+    "council": {
+      "description_cn": "多角色决策委员会：在面对模糊决策、权衡取舍时召集四角色委员会，提供结构化辩论后做出决策",
+      "keywords_cn": [
+        "决策委员会",
+        "多角色",
+        "结构化辩论",
+        "决策辅助",
+        "权衡分析"
+      ],
+      "has_chinese": true
+    },
+    "cpp-coding-standards": {
+      "description_cn": "C++ 编码标准：基于 C++ Core Guidelines 的现代、安全和惯用的 C++ 编码规范",
+      "keywords_cn": [
+        "C++",
+        "编码规范",
+        "Core Guidelines",
+        "安全编程",
+        "代码审查"
+      ],
+      "has_chinese": true
+    },
+    "cpp-testing": {
+      "description_cn": "C++ 测试：编写/更新/修复 C++ 测试，配置 GoogleTest/CTest，诊断失败或不稳定测试，增加覆盖率和消毒器",
+      "keywords_cn": [
+        "C++ 测试",
+        "GoogleTest",
+        "CTest",
+        "单元测试",
+        "覆盖率"
+      ],
+      "has_chinese": true
+    },
+    "crosspost": {
+      "description_cn": "跨平台内容分发：在 X、LinkedIn、Threads 和 Bluesky 之间分发内容，按平台风格适配，不发布完全相同的副本",
+      "keywords_cn": [
+        "跨平台发布",
+        "内容分发",
+        "社交媒体",
+        "多平台适配",
+        "内容营销"
+      ],
+      "has_chinese": true
+    },
+    "csharp-testing": {
+      "description_cn": "C# 测试：使用 xUnit、FluentAssertions、Mocking、集成测试和测试组织最佳实践的 C# 和 .NET 测试模式",
+      "keywords_cn": [
+        "C#",
+        ".NET",
+        "xUnit",
+        "单元测试",
+        "集成测试"
+      ],
+      "has_chinese": true
+    },
+    "customer-billing-ops": {
+      "description_cn": "客户计费运维：操作订阅、退款、流失分类、计费门户恢复和套餐分析等客户计费工作流",
+      "keywords_cn": [
+        "计费运维",
+        "Stripe",
+        "订阅管理",
+        "退款流程",
+        "客户支持"
+      ],
+      "has_chinese": true
+    },
+    "customs-trade-compliance": {
+      "description_cn": "海关贸易合规：海关单证、关税分类、受限方筛查和跨司法管辖区法规合规的经验化专业知识",
+      "keywords_cn": [
+        "海关合规",
+        "贸易",
+        "关税分类",
+        "进出口",
+        "合规审查"
+      ],
+      "has_chinese": true
+    },
+    "dart-flutter-patterns": {
+      "description_cn": "Dart/Flutter 模式：生产级 Dart 和 Flutter 模式，涵盖空安全、不可变状态、Widget 架构、状态管理框架和清洁架构",
+      "keywords_cn": [
+        "Dart",
+        "Flutter",
+        "状态管理",
+        "BLoC",
+        "Riverpod",
+        "跨平台"
+      ],
+      "has_chinese": true
+    },
+    "dashboard-builder": {
+      "description_cn": "仪表盘构建：为 Grafana、SigNoz 等平台构建回答运营人员真实问题的监控仪表盘",
+      "keywords_cn": [
+        "仪表盘",
+        "Grafana",
+        "SigNoz",
+        "监控",
+        "可视化"
+      ],
+      "has_chinese": true
+    },
+    "data-scraper-agent": {
+      "description_cn": "数据抓取 Agent：构建全自动 AI 驱动数据采集 Agent，定时抓取，免费 LLM 增强数据，存储到 Notion/Sheets，基于 GitHub Actions 免费运行",
+      "keywords_cn": [
+        "数据抓取",
+        "AI Agent",
+        "自动化采集",
+        "GitHub Actions",
+        "定时任务",
+        "爬虫",
+        "数据采集",
+        "自动化爬虫",
+        "网页抓取"
+      ],
+      "has_chinese": true
+    },
+    "data-throughput-accelerator": {
+      "description_cn": "数据吞吐加速：加速大批量数据摄入、回填、导出、ETL 和数据仓库加载，同时保证数据正确性",
+      "keywords_cn": [
+        "数据吞吐",
+        "ETL",
+        "大批量处理",
+        "数据导入",
+        "性能优化"
+      ],
+      "has_chinese": true
+    },
+    "database-migrations": {
+      "description_cn": "数据库迁移：PostgreSQL、MySQL 及常见 ORM 的 Schema 变更、数据迁移、回滚和零停机部署最佳实践",
+      "keywords_cn": [
+        "数据库迁移",
+        "Schema 变更",
+        "零停机",
+        "回滚",
+        "ORM"
+      ],
+      "has_chinese": true
+    },
+    "deep-research": {
+      "description_cn": "深度研究：使用 firecrawl 和 exa 多源深度搜索，综合发现并生成带来源引用的研究报告",
+      "keywords_cn": [
+        "深度研究",
+        "web 搜索",
+        "firecrawl",
+        "exa",
+        "研究报告"
+      ],
+      "has_chinese": true
+    },
+    "defi-amm-security": {
+      "description_cn": "DeFi AMM 安全：Solidity AMM 合约、流动性池和兑换流程的安全检查清单，覆盖重入、CEI 排序、捐赠攻击、预言机操纵等",
+      "keywords_cn": [
+        "DeFi",
+        "AMM",
+        "Solidity",
+        "安全审计",
+        "智能合约"
+      ],
+      "has_chinese": true
+    },
+    "deployment-patterns": {
+      "description_cn": "部署模式：Web 应用的部署工作流、CI/CD 管道模式、Docker 容器化、健康检查、回滚策略和生产就绪检查清单",
+      "keywords_cn": [
+        "部署",
+        "CI/CD",
+        "Docker",
+        "健康检查",
+        "回滚策略"
+      ],
+      "has_chinese": true
+    },
+    "design-system": {
+      "description_cn": "设计系统：生成或审计设计系统，检查视觉一致性，审查涉及样式的 PR",
+      "keywords_cn": [
+        "设计系统",
+        "视觉一致性",
+        "样式审查",
+        "UI 规范",
+        "组件库"
+      ],
+      "has_chinese": true
+    },
+    "django-celery": {
+      "description_cn": "Django + Celery：异步任务模式，涵盖配置、任务设计、定时调度、重试、Canvas 工作流、监控和测试",
+      "keywords_cn": [
+        "Django",
+        "Celery",
+        "异步任务",
+        "定时调度",
+        "后台任务"
+      ],
+      "has_chinese": true
+    },
+    "django-patterns": {
+      "description_cn": "Django 架构模式：Django 架构、DRF REST API 设计、ORM 最佳实践、缓存、信号、中间件和生产级应用开发",
+      "keywords_cn": [
+        "Django",
+        "DRF",
+        "ORM",
+        "REST API",
+        "Python Web",
+        "后端开发"
+      ],
+      "has_chinese": true
+    },
+    "django-security": {
+      "description_cn": "Django 安全：Django 安全最佳实践，涵盖认证、授权、CSRF、SQL 注入防护、XSS 防护和安全部署配置",
+      "keywords_cn": [
+        "Django 安全",
+        "认证",
+        "授权",
+        "CSRF",
+        "XSS 防护"
+      ],
+      "has_chinese": true
+    },
+    "django-tdd": {
+      "description_cn": "Django TDD：使用 pytest-django、TDD 方法论、factory_boy、Mock、覆盖率和 DRF API 测试的 Django 测试策略",
+      "keywords_cn": [
+        "Django",
+        "TDD",
+        "pytest",
+        "测试驱动开发",
+        "覆盖率"
+      ],
+      "has_chinese": true
+    },
+    "django-verification": {
+      "description_cn": "Django 验证循环：发布或 PR 前的迁移检查、代码检查、带覆盖率的测试、安全扫描和部署就绪检查",
+      "keywords_cn": [
+        "Django",
+        "验证",
+        "迁移检查",
+        "安全扫描",
+        "部署检查"
+      ],
+      "has_chinese": true
+    },
+    "dmux-workflows": {
+      "description_cn": "多 Agent 编排：使用 dmux 的 tmux 窗格管理器进行多 Agent 编排，支持 Claude Code、Codex、OpenCode 等并行工作流",
+      "keywords_cn": [
+        "dmux",
+        "多 Agent",
+        "tmux",
+        "并行开发",
+        "Agent 编排"
+      ],
+      "has_chinese": true
+    },
+    "docker-patterns": {
+      "description_cn": "Docker 模式：Docker 和 Docker Compose 的本地开发、容器安全、网络、卷管理和多服务编排模式",
+      "keywords_cn": [
+        "Docker",
+        "Docker Compose",
+        "容器化",
+        "容器安全",
+        "服务编排",
+        "Dockerfile",
+        "Compose",
+        "容器部署"
+      ],
+      "has_chinese": true
+    },
+    "documentation-lookup": {
+      "description_cn": "文档查询：通过 Context7 MCP 获取最新库和框架文档，适用于配置问题、API 参考、代码示例等场景",
+      "keywords_cn": [
+        "文档查询",
+        "Context7",
+        "MCP",
+        "API 参考",
+        "框架文档"
+      ],
+      "has_chinese": true
+    },
+    "dotnet-patterns": {
+      "description_cn": ".NET 模式：惯用的 C# 和 .NET 模式、依赖注入、async/await 以及构建稳健 .NET 应用的最佳实践",
+      "keywords_cn": [
+        ".NET",
+        "C#",
+        "依赖注入",
+        "async/await",
+        "架构模式"
+      ],
+      "has_chinese": true
+    },
+    "dynamic-workflow-mode": {
+      "description_cn": "动态工作流模式：为 Claude 动态工作流设计任务级框架、评估门控和可复用技能提取",
+      "keywords_cn": [
+        "动态工作流",
+        "任务框架",
+        "评估门控",
+        "技能提取",
+        "自适应 Agent"
+      ],
+      "has_chinese": true
+    },
+    "e2e-testing": {
+      "description_cn": "E2E 测试：Playwright 端到端测试模式，涵盖 Page Object Model、配置、CI/CD 集成、产物管理和不稳定测试策略",
+      "keywords_cn": [
+        "E2E 测试",
+        "Playwright",
+        "Page Object Model",
+        "CI/CD",
+        "自动化测试"
+      ],
+      "has_chinese": true
+    },
+    "ecc-guide": {
+      "description_cn": "ECC 使用指南：通过读取实时仓库内容，指导用户了解 ECC 的 Agent、技能、命令、钩子、规则、安装配置和项目入门",
+      "keywords_cn": [
+        "ECC 指南",
+        "技能概览",
+        "安装配置",
+        "项目入门",
+        "使用帮助"
+      ],
+      "has_chinese": true
+    },
+    "ecc-skill-cn-localization": {
+      "description_cn": "批量汉化 ECC 技能描述并添加中文关键词的完整工作流。适用于从 ECC 源仓库重新同步后覆盖了中文描述的场景",
+      "keywords_cn": [
+        "ECC",
+        "汉化",
+        "中文化",
+        "批量翻译",
+        "keywords_cn",
+        "技能本地化"
+      ],
+      "has_chinese": true
+    },
+    "ecc-tools-cost-audit": {
+      "description_cn": "ECC 工具成本审计：以证据优先的方式审计 ECC Tools 的消耗和计费，调查异常 PR 创建、配额绕过、模型泄漏和费用激增",
+      "keywords_cn": [
+        "成本审计",
+        "ECC Tools",
+        "计费分析",
+        "配额监控",
+        "费用调查"
+      ],
+      "has_chinese": true
+    },
+    "email-ops": {
+      "description_cn": "邮件运维：以证据优先的方式进行邮箱整理、起草、发送验证和已发送邮件安全跟进工作流",
+      "keywords_cn": [
+        "邮件运维",
+        "邮箱整理",
+        "邮件发送",
+        "跟进",
+        "收件箱管理"
+      ],
+      "has_chinese": true
+    },
+    "energy-procurement": {
+      "description_cn": "能源采购：电力与天然气采购、电价优化、需量电费管理、可再生能源 PPA 评估和多设施能源成本管理的经验化知识",
+      "keywords_cn": [
+        "能源采购",
+        "电价优化",
+        "PPA",
+        "需量管理",
+        "可持续能源"
+      ],
+      "has_chinese": true
+    },
+    "enterprise-agent-ops": {
+      "description_cn": "企业 Agent 运维：通过可观测性、安全边界和生命周期管理来运维长期运行的 Agent 工作负载",
+      "keywords_cn": [
+        "Agent 运维",
+        "可观测性",
+        "安全边界",
+        "生命周期管理",
+        "企业级"
+      ],
+      "has_chinese": true
+    },
+    "error-handling": {
+      "description_cn": "错误处理模式：跨 TypeScript、Python 和 Go 的稳健错误处理模式，涵盖类型化错误、错误边界、重试、熔断和用户面向的错误消息",
+      "keywords_cn": [
+        "错误处理",
+        "TypeScript",
+        "Python",
+        "Go",
+        "熔断器"
+      ],
+      "has_chinese": true
+    },
+    "eval-harness": {
+      "description_cn": "评估驱动开发：为 Claude Code 会话提供正式评估框架，实现 EDD（评估驱动开发）原则，支持能力评估、回归测试和 pass@k 指标",
+      "keywords_cn": [
+        "评估框架",
+        "EDD",
+        "pass@k",
+        "Claude Code",
+        "回归测试"
+      ],
+      "has_chinese": true
+    },
+    "evm-token-decimals": {
+      "description_cn": "EVM 代币精度：防止跨链小数位不匹配 bug，涵盖运行时精度查询、链感知缓存、跨链代币精度漂移和安全的数值归一化",
+      "keywords_cn": [
+        "EVM",
+        "代币精度",
+        "ERC-20",
+        "Web3",
+        "DeFi"
+      ],
+      "has_chinese": true
+    },
+    "exa-search": {
+      "description_cn": "Exa 神经搜索：通过 Exa MCP 进行网页、代码和公司研究的神经搜索引擎，支持 web 搜索、代码示例、企业情报和人脉查找",
+      "keywords_cn": [
+        "Exa",
+        "神经搜索",
+        "MCP",
+        "网络搜索",
+        "企业研究"
+      ],
+      "has_chinese": true
+    },
+    "fal-ai-media": {
+      "description_cn": "fal.ai 媒体生成：通过 MCP 统一生成图片、视频和音频，支持文生图、文/图转视频、文本转语音和视频转音频",
+      "keywords_cn": [
+        "fal.ai",
+        "AI媒体生成",
+        "文生图",
+        "文生视频",
+        "文本转语音"
+      ],
+      "has_chinese": true
+    },
+    "fastapi-patterns": {
+      "description_cn": "FastAPI 模式：异步 API、依赖注入、Pydantic 请求响应模型、OpenAPI 文档、测试、安全性和生产就绪的最佳实践",
+      "keywords_cn": [
+        "FastAPI",
+        "异步API",
+        "Pydantic",
+        "依赖注入",
+        "OpenAPI",
+        "写API",
+        "后端开发"
+      ],
+      "has_chinese": true
+    },
+    "finance-billing-ops": {
+      "description_cn": "财务计费运营：以证据为先的收入、定价、退款、团队计费和计费模型真实性核查工作流，提供销售快照和计费诊断",
+      "keywords_cn": [
+        "计费运营",
+        "收入分析",
+        "定价",
+        "Stripe",
+        "退款"
+      ],
+      "has_chinese": true
+    },
+    "flox-environments": {
+      "description_cn": "Flox 开发环境：基于 Nix 的可复现跨平台开发环境管理器，用于依赖管理、工具链配置和团队一致性环境",
+      "keywords_cn": [
+        "Flox",
+        "Nix",
+        "开发环境",
+        "可复现构建",
+        "跨平台"
+      ],
+      "has_chinese": true
+    },
+    "flutter-dart-code-review": {
+      "description_cn": "Flutter/Dart 代码审查：框架无关的审查清单，涵盖 Widget 最佳实践、状态管理模式（BLoC、Riverpod、Provider 等）、Dart 惯用法和性能优化",
+      "keywords_cn": [
+        "Flutter",
+        "Dart",
+        "代码审查",
+        "状态管理",
+        "Widget"
+      ],
+      "has_chinese": true
+    },
+    "foundation-models-on-device": {
+      "description_cn": "Apple 设备端基础模型：使用 Apple FoundationModels 框架在 iOS 26+ 上运行设备端 LLM，支持文本生成、@Generable 引导生成和工具调用",
+      "keywords_cn": [
+        "Apple FoundationModels",
+        "设备端 LLM",
+        "iOS 26",
+        "@Generable",
+        "端侧AI"
+      ],
+      "has_chinese": true
+    },
+    "frontend-a11y": {
+      "description_cn": "前端无障碍：React 和 Next.js 的可访问性模式，涵盖语义 HTML、ARIA 属性、表单标签、键盘导航、焦点管理和屏幕阅读器支持",
+      "keywords_cn": [
+        "无障碍",
+        "a11y",
+        "ARIA",
+        "键盘导航",
+        "屏幕阅读器"
+      ],
+      "has_chinese": true
+    },
+    "frontend-design-direction": {
+      "description_cn": "前端设计方向：为生产 UI 设定 ECC 专属前端设计方向，用于构建和改进网站、仪表盘、应用和组件",
+      "keywords_cn": [
+        "前端设计",
+        "UI设计",
+        "设计系统",
+        "ECC",
+        "产品设计"
+      ],
+      "has_chinese": true
+    },
+    "frontend-patterns": {
+      "description_cn": "前端开发模式：React 和 Next.js 的前端开发模式，包括状态管理、性能优化和 UI 最佳实践",
+      "keywords_cn": [
+        "前端开发",
+        "React",
+        "Next.js",
+        "性能优化",
+        "UI",
+        "状态管理",
+        "组件设计"
+      ],
+      "has_chinese": true
+    },
+    "frontend-slides": {
+      "description_cn": "HTML 演示文稿：从零创建动画丰富的 HTML 演示文稿或转换 PowerPoint 文件，帮助非设计师通过视觉探索发现美学方向",
+      "keywords_cn": [
+        "HTML演示",
+        "PPT转换",
+        "动画",
+        "前端展示",
+        "演示设计"
+      ],
+      "has_chinese": true
+    },
+    "fsharp-testing": {
+      "description_cn": "F# 测试模式：使用 xUnit、FsUnit、Unquote、FsCheck 属性基测试和集成测试的 F# 测试模式与最佳实践",
+      "keywords_cn": [
+        "F#",
+        "xUnit",
+        "FsCheck",
+        "属性基测试",
+        "函数式测试"
+      ],
+      "has_chinese": true
+    },
+    "gan-style-harness": {
+      "description_cn": "GAN 式生成-评估框架：受 GAN 启发的生成器-评估器代理框架，用于自主构建高质量应用",
+      "keywords_cn": [
+        "GAN",
+        "生成-评估",
+        "代理框架",
+        "自主构建",
+        "AI应用"
+      ],
+      "has_chinese": true
+    },
+    "gateguard": {
+      "description_cn": "事实强制门控：阻断编辑/写入/Bash 操作并要求具体调查后方可执行，可提升输出质量 +2.25 分",
+      "keywords_cn": [
+        "门控",
+        "安全防护",
+        "输出质量",
+        "事实核查",
+        "操作拦截"
+      ],
+      "has_chinese": true
+    },
+    "git-workflow": {
+      "description_cn": "Git 工作流：分支策略、提交规范、merge vs rebase、冲突解决和团队协作最佳实践",
+      "keywords_cn": [
+        "Git",
+        "分支策略",
+        "代码协作",
+        "版本控制",
+        "工作流",
+        "Git工作流",
+        "代码提交"
+      ],
+      "has_chinese": true
+    },
+    "github-ops": {
+      "description_cn": "GitHub 运维：仓库操作、自动化与管理，涵盖 Issue 分类、PR 管理、CI/CD、发布管理和安全监控",
+      "keywords_cn": [
+        "GitHub",
+        "CI/CD",
+        "PR管理",
+        "Issue管理",
+        "运维自动化"
+      ],
+      "has_chinese": true
+    },
+    "golang-patterns": {
+      "description_cn": "Go 语言模式：地道 Go 模式、最佳实践和约定，用于构建健壮、高效、可维护的 Go 应用",
+      "keywords_cn": [
+        "Go",
+        "Golang",
+        "编程模式",
+        "最佳实践",
+        "并发"
+      ],
+      "has_chinese": true
+    },
+    "golang-testing": {
+      "description_cn": "Go 测试模式：表格驱动测试、子测试、基准测试、模糊测试和测试覆盖率，遵循 TDD 方法论",
+      "keywords_cn": [
+        "Go测试",
+        "表格驱动测试",
+        "TDD",
+        "基准测试",
+        "模糊测试"
+      ],
+      "has_chinese": true
+    },
+    "google-workspace-ops": {
+      "description_cn": "Google Workspace 运维：在 Drive、Docs、Sheets 和 Slides 间一体化操作，用于查找、汇总、编辑和迁移工作区资产",
+      "keywords_cn": [
+        "Google Workspace",
+        "Drive",
+        "Docs",
+        "Sheets",
+        "办公自动化"
+      ],
+      "has_chinese": true
+    },
+    "healthcare-cdss-patterns": {
+      "description_cn": "临床决策支持系统：CDSS 开发模式，药物相互作用检查、剂量验证、临床评分（NEWS2、qSOFA）和 EMR 集成",
+      "keywords_cn": [
+        "CDSS",
+        "临床决策支持",
+        "医疗健康",
+        "药物检查",
+        "EMR"
+      ],
+      "has_chinese": true
+    },
+    "healthcare-emr-patterns": {
+      "description_cn": "EMR/EHR 开发模式：医疗应用的电子病历模式，涵盖临床安全、就诊工作流、处方生成和可访问性优先的 UI",
+      "keywords_cn": [
+        "EMR",
+        "EHR",
+        "医疗应用",
+        "临床工作流",
+        "医疗数据"
+      ],
+      "has_chinese": true
+    },
+    "healthcare-eval-harness": {
+      "description_cn": "患者安全评估框架：医疗应用部署的患者安全评估，自动化测试 CDSS 准确性、PHI 暴露和临床工作流完整性",
+      "keywords_cn": [
+        "患者安全",
+        "医疗评估",
+        "CDSS",
+        "PHI",
+        "部署验证"
+      ],
+      "has_chinese": true
+    },
+    "healthcare-phi-compliance": {
+      "description_cn": "PHI/PII 合规：医疗应用的受保护健康信息合规模式，涵盖数据分类、访问控制、审计日志和加密",
+      "keywords_cn": [
+        "PHI",
+        "PII",
+        "医疗合规",
+        "数据安全",
+        "HIPAA"
+      ],
+      "has_chinese": true
+    },
+    "hermes-imports": {
+      "description_cn": "Hermes 技能导入：将本地 Hermes 操作工作流转换为清理后的 ECC 技能和发布包制品",
+      "keywords_cn": [
+        "Hermes",
+        "ECC",
+        "技能导入",
+        "工作流",
+        "发布管理"
+      ],
+      "has_chinese": true
+    },
+    "hexagonal-architecture": {
+      "description_cn": "六边形架构：使用端口与适配器模式设计、实现和重构系统，清晰的领域边界和依赖反转，支持 TypeScript、Java、Kotlin 和 Go",
+      "keywords_cn": [
+        "六边形架构",
+        "端口与适配器",
+        "依赖反转",
+        "DDD",
+        "架构模式"
+      ],
+      "has_chinese": true
+    },
+    "hipaa-compliance": {
+      "description_cn": "HIPAA 合规：医疗隐私与安全的 HIPAA 合规入口，处理 PHI、覆盖实体、BAA、违规分析和美国医疗合规",
+      "keywords_cn": [
+        "HIPAA",
+        "医疗合规",
+        "PHI",
+        "BAA",
+        "隐私安全"
+      ],
+      "has_chinese": true
+    },
+    "homelab-network-readiness": {
+      "description_cn": "家庭实验室就绪检查：修改路由器、防火墙、DHCP 或 VPN 配置前的 VLAN 分段、本地 DNS 过滤和远程访问就绪清单",
+      "keywords_cn": [
+        "家庭实验室",
+        "VLAN",
+        "DNS",
+        "WireGuard",
+        "网络就绪"
+      ],
+      "has_chinese": true
+    },
+    "homelab-network-setup": {
+      "description_cn": "家庭网络规划：网关、交换机、AP、IP 范围、DHCP 保留、DNS、布线和常见初学者错误的实用规划和设置",
+      "keywords_cn": [
+        "家庭网络",
+        "网络规划",
+        "网关",
+        "DHCP",
+        "网络设置"
+      ],
+      "has_chinese": true
+    },
+    "homelab-pihole-dns": {
+      "description_cn": "Pi-hole DNS：Pi-hole 安装、黑名单管理、DNS-over-HTTPS 设置、DHCP 集成、本地 DNS 记录和 DNS 故障排查",
+      "keywords_cn": [
+        "Pi-hole",
+        "DNS过滤",
+        "DNS-over-HTTPS",
+        "DHCP",
+        "广告拦截"
+      ],
+      "has_chinese": true
+    },
+    "homelab-vlan-segmentation": {
+      "description_cn": "VLAN 网络分段：使用 UniFi、pfSense/OPNsense 和 MikroTik 将家庭网络分割为 IoT、访客、受信和服务器 VLAN",
+      "keywords_cn": [
+        "VLAN",
+        "网络分段",
+        "UniFi",
+        "pfSense",
+        "防火墙规则"
+      ],
+      "has_chinese": true
+    },
+    "homelab-wireguard-vpn": {
+      "description_cn": "WireGuard VPN：VPN 服务器搭建、对等配置、密钥生成、分流隧道 vs 全隧道路由和远程访问",
+      "keywords_cn": [
+        "WireGuard",
+        "VPN",
+        "远程访问",
+        "隧道",
+        "密钥管理"
+      ],
+      "has_chinese": true
+    },
+    "hookify-rules": {
+      "description_cn": "Hookify 规则：创建、编写和配置 hookify 规则，提供规则语法和模式指导",
+      "keywords_cn": [
+        "Hookify",
+        "规则引擎",
+        "钩子",
+        "自动化规则",
+        "配置"
+      ],
+      "has_chinese": true
+    },
+    "inventory-demand-planning": {
+      "description_cn": "库存需求规划：需求预测、安全库存优化、补货计划和促销提升估算，包含 ABC/XYZ 分析和供应商谈判框架",
+      "keywords_cn": [
+        "库存管理",
+        "需求预测",
+        "安全库存",
+        "补货计划",
+        "ABC/XYZ分析"
+      ],
+      "has_chinese": true
+    },
+    "investor-materials": {
+      "description_cn": "投资人材料：创建和更新 Pitch Deck、一页纸、投资人备忘录、加速器申请、财务模型和融资材料",
+      "keywords_cn": [
+        "融资材料",
+        "Pitch Deck",
+        "投资人",
+        "财务模型",
+        "募资"
+      ],
+      "has_chinese": true
+    },
+    "investor-outreach": {
+      "description_cn": "投资人外联：起草冷邮件、暖介绍、跟进邮件和投资人沟通信函，用于对接天使、VC 和战略投资人",
+      "keywords_cn": [
+        "投资人外联",
+        "冷邮件",
+        "融资",
+        "VC",
+        "创业沟通"
+      ],
+      "has_chinese": true
+    },
+    "ios-icon-gen": {
+      "description_cn": "iOS 图标生成：从 SF Symbols 或 Iconify API 为 Xcode 资源目录生成 iOS 应用图标 PNG 图片集",
+      "keywords_cn": [
+        "iOS图标",
+        "SF Symbols",
+        "Xcode",
+        "Iconify",
+        "资源目录"
+      ],
+      "has_chinese": true
+    },
+    "iterative-retrieval": {
+      "description_cn": "迭代检索模式：通过逐步精炼上下文检索来解决子代理上下文问题的模式",
+      "keywords_cn": [
+        "迭代检索",
+        "上下文增强",
+        "子代理",
+        "RAG",
+        "信息检索"
+      ],
+      "has_chinese": true
+    },
+    "ito-basket-compare": {
+      "description_cn": "Itô 篮子比较：将预测市场篮子与用户知识库、投资组合笔记和财务背景进行只读比较和差距分析",
+      "keywords_cn": [
+        "Itô",
+        "预测市场",
+        "篮子对比",
+        "投资研究",
+        "差距分析"
+      ],
+      "has_chinese": true
+    },
+    "ito-data-atlas-agent": {
+      "description_cn": "Itô 数据图谱代理：设计后台 Data Atlas 风格代理，用于篮子研究、市场发现和人机协作编辑",
+      "keywords_cn": [
+        "Itô",
+        "数据图谱",
+        "市场发现",
+        "代理架构",
+        "人机协作"
+      ],
+      "has_chinese": true
+    },
+    "ito-market-intelligence": {
+      "description_cn": "Itô 市场情报：研究预测市场事件、场所、底层资产、流动性和新闻语境，提供只读情报简报",
+      "keywords_cn": [
+        "Itô",
+        "市场情报",
+        "预测市场",
+        "流动性",
+        "事件研究"
+      ],
+      "has_chinese": true
+    },
+    "ito-trade-planner": {
+      "description_cn": "Itô 交易规划：构建非咨询性质的预测市场交易规划工作表，检查场所、约束和手动执行步骤",
+      "keywords_cn": [
+        "Itô",
+        "交易规划",
+        "预测市场",
+        "执行检查",
+        "非顾问"
+      ],
+      "has_chinese": true
+    },
+    "java-coding-standards": {
+      "description_cn": "Java 编码标准：Spring Boot 和 Quarkus 服务的命名、不可变性、Optional 用法、异常、泛型、CDI 和响应式模式",
+      "keywords_cn": [
+        "Java",
+        "Spring Boot",
+        "Quarkus",
+        "编码规范",
+        "最佳实践"
+      ],
+      "has_chinese": true
+    },
+    "jira-integration": {
+      "description_cn": "Jira 集成：通过 MCP 或 REST API 获取 Jira 工单、分析需求、更新状态、添加评论和流转 Issue",
+      "keywords_cn": [
+        "Jira",
+        "工单管理",
+        "项目管理",
+        "REST API",
+        "MCP"
+      ],
+      "has_chinese": true
+    },
+    "jpa-patterns": {
+      "description_cn": "JPA/Hibernate 模式：实体设计、关系映射、查询优化、事务、审计、索引、分页和连接池模式",
+      "keywords_cn": [
+        "JPA",
+        "Hibernate",
+        "ORM",
+        "Spring Boot",
+        "数据库"
+      ],
+      "has_chinese": true
+    },
+    "knowledge-ops": {
+      "description_cn": "知识库运维：跨本地文件、MCP 记忆、向量存储和 Git 仓库的知识库管理、摄取、同步和检索",
+      "keywords_cn": [
+        "知识管理",
+        "向量存储",
+        "MCP",
+        "知识检索",
+        "知识同步"
+      ],
+      "has_chinese": true
+    },
+    "kotlin-coroutines-flows": {
+      "description_cn": "Kotlin 协程与 Flow：Android 和 KMP 的协程与 Flow 模式，结构化并发、Flow 操作符、StateFlow 和测试",
+      "keywords_cn": [
+        "Kotlin",
+        "协程",
+        "Flow",
+        "Android",
+        "KMP"
+      ],
+      "has_chinese": true
+    },
+    "kotlin-exposed-patterns": {
+      "description_cn": "JetBrains Exposed ORM：DSL 查询、DAO 模式、事务、HikariCP 连接池、Flyway 迁移和仓储模式",
+      "keywords_cn": [
+        "Exposed",
+        "Kotlin ORM",
+        "JetBrains",
+        "数据库",
+        "DSL"
+      ],
+      "has_chinese": true
+    },
+    "kotlin-ktor-patterns": {
+      "description_cn": "Ktor 服务端模式：路由 DSL、插件、认证、Koin DI、kotlinx.serialization、WebSocket 和测试",
+      "keywords_cn": [
+        "Ktor",
+        "Kotlin",
+        "服务端",
+        "WebSocket",
+        "Koin"
+      ],
+      "has_chinese": true
+    },
+    "kotlin-patterns": {
+      "description_cn": "Kotlin 语言模式：地道 Kotlin 模式、最佳实践和约定，协程、空安全和 DSL 构建器",
+      "keywords_cn": [
+        "Kotlin",
+        "编程模式",
+        "协程",
+        "空安全",
+        "DSL"
+      ],
+      "has_chinese": true
+    },
+    "kotlin-testing": {
+      "description_cn": "Kotlin 测试模式：Kotest、MockK、协程测试、属性基测试和 Kover 覆盖率，遵循 TDD 方法论",
+      "keywords_cn": [
+        "Kotlin测试",
+        "Kotest",
+        "MockK",
+        "TDD",
+        "覆盖率"
+      ],
+      "has_chinese": true
+    },
+    "laravel-patterns": {
+      "description_cn": "Laravel 架构模式：路由/控制器、Eloquent ORM、服务层、队列、事件、缓存和 API 资源的生产实践",
+      "keywords_cn": [
+        "Laravel",
+        "PHP",
+        "Eloquent ORM",
+        "服务层",
+        "API"
+      ],
+      "has_chinese": true
+    },
+    "laravel-plugin-discovery": {
+      "description_cn": "Laravel 包发现：通过 LaraPlugins.io MCP 发现和评估 Laravel 包，检查包健康和兼容性",
+      "keywords_cn": [
+        "Laravel",
+        "插件",
+        "LaraPlugins",
+        "MCP",
+        "PHP包"
+      ],
+      "has_chinese": true
+    },
+    "laravel-security": {
+      "description_cn": "Laravel 安全实践：认证/授权、验证、CSRF、批量赋值、文件上传、密钥、限流和安全部署",
+      "keywords_cn": [
+        "Laravel安全",
+        "认证授权",
+        "CSRF",
+        "数据验证",
+        "安全部署"
+      ],
+      "has_chinese": true
+    },
+    "laravel-tdd": {
+      "description_cn": "Laravel TDD：使用 PHPUnit 和 Pest 的测试驱动开发，工厂、数据库测试、模拟和覆盖率目标",
+      "keywords_cn": [
+        "Laravel",
+        "TDD",
+        "PHPUnit",
+        "Pest",
+        "测试驱动"
+      ],
+      "has_chinese": true
+    },
+    "laravel-verification": {
+      "description_cn": "Laravel 验证循环：环境检查、代码检查、静态分析、安全扫描和部署就绪验证",
+      "keywords_cn": [
+        "Laravel",
+        "验证",
+        "静态分析",
+        "安全扫描",
+        "部署就绪"
+      ],
+      "has_chinese": true
+    },
+    "latency-critical-systems": {
+      "description_cn": "延迟关键系统：实时仪表盘、市场数据、流式代理、执行网关和高频交易基础设施的延迟敏感设计",
+      "keywords_cn": [
+        "低延迟",
+        "实时系统",
+        "p95延迟",
+        "流式处理",
+        "高频交易"
+      ],
+      "has_chinese": true
+    },
+    "lead-intelligence": {
+      "description_cn": "AI 驱动线索情报：替代 Apollo、Clay 和 ZoomInfo 的 AI 原生线索评分、人脉发现和多渠道外联管线",
+      "keywords_cn": [
+        "线索情报",
+        "AI外联",
+        "销售线索",
+        "人脉发现",
+        "多渠道"
+      ],
+      "has_chinese": true
+    },
+    "liquid-glass-design": {
+      "description_cn": "iOS 26 Liquid Glass 设计系统：动态玻璃材质，支持模糊、反射和交互形变，用于 SwiftUI、UIKit 和 WidgetKit",
+      "keywords_cn": [
+        "Liquid Glass",
+        "iOS 26",
+        "SwiftUI",
+        "动态玻璃",
+        "UI设计"
+      ],
+      "has_chinese": true
+    },
+    "llm-trading-agent-security": {
+      "description_cn": "交易代理安全：自主交易代理的安全模式，涵盖提示注入防护、支出限制、预发送模拟、断路器和 MEV 保护",
+      "keywords_cn": [
+        "交易安全",
+        "提示注入",
+        "断路器",
+        "MEV保护",
+        "代理安全"
+      ],
+      "has_chinese": true
+    },
+    "logistics-exception-management": {
+      "description_cn": "物流异常管理：处理货运异常、运输延误、损坏、丢失和承运商争议的专家经验，包括升级协议和索赔流程",
+      "keywords_cn": [
+        "物流",
+        "货运异常",
+        "理赔",
+        "承运商",
+        "供应链"
+      ],
+      "has_chinese": true
+    },
+    "make-interfaces-feel-better": {
+      "description_cn": "界面质感提升：应用具体的设计工程细节让界面更精致，涵盖间距、排版、边框、阴影和交互动效",
+      "keywords_cn": [
+        "UI设计",
+        "交互细节",
+        "视觉打磨",
+        "用户体验",
+        "设计工程"
+      ],
+      "has_chinese": true
+    },
+    "manim-video": {
+      "description_cn": "Manim 动画视频：使用 Manim 构建技术概念、图表、系统架构图的可复用动画讲解视频",
+      "keywords_cn": [
+        "Manim",
+        "动画",
+        "技术讲解",
+        "数据可视化",
+        "视频制作"
+      ],
+      "has_chinese": true
+    },
+    "market-research": {
+      "description_cn": "市场研究：带来源归因和决策导向总结的市场研究、竞争分析、投资人尽职调查和行业情报",
+      "keywords_cn": [
+        "市场研究",
+        "竞争分析",
+        "尽职调查",
+        "行业情报",
+        "商业决策"
+      ],
+      "has_chinese": true
+    },
+    "marketing-campaign": {
+      "description_cn": "营销活动策划：端到端营销活动规划与执行，涵盖受众研究、定位、文案、邮件序列、社交媒体和内容日历",
+      "keywords_cn": [
+        "营销活动",
+        "内容营销",
+        "文案",
+        "多渠道",
+        "产品发布"
+      ],
+      "has_chinese": true
+    },
+    "mcp-server-patterns": {
+      "description_cn": "MCP 服务端构建：使用 Node/TypeScript SDK 构建 MCP 服务器，支持工具、资源、提示、Zod 验证和传输协议",
+      "keywords_cn": [
+        "MCP",
+        "服务器",
+        "TypeScript",
+        "Zod",
+        "AI工具"
+      ],
+      "has_chinese": true
+    },
+    "messages-ops": {
+      "description_cn": "消息运维：以证据为先的实时消息工作流，用于读取短信/DM、恢复验证码、检查线程和验证消息来源",
+      "keywords_cn": [
+        "消息",
+        "短信",
+        "DM",
+        "验证码",
+        "消息追溯"
+      ],
+      "has_chinese": true
+    },
+    "mle-workflow": {
+      "description_cn": "机器学习工程工作流：数据契约、可复现训练、模型评估、部署、监控和回滚的生产级 ML 工作流",
+      "keywords_cn": [
+        "MLOps",
+        "模型训练",
+        "模型部署",
+        "数据契约",
+        "监控"
+      ],
+      "has_chinese": true
+    },
+    "motion-advanced": {
+      "description_cn": "高级动效模式：React/Next.js 的拖拽、手势、文字动画、SVG 路径动画、自定义钩子和命令式序列",
+      "keywords_cn": [
+        "动效",
+        "Framer Motion",
+        "拖拽",
+        "手势",
+        "SVG动画"
+      ],
+      "has_chinese": true
+    },
+    "motion-foundations": {
+      "description_cn": "动效基础层：React/Next.js 的动效令牌、弹簧预设、性能规则、设备适配和 SSR 安全的基础层",
+      "keywords_cn": [
+        "动效基础",
+        "motion/react",
+        "弹簧动画",
+        "性能",
+        "SSR"
+      ],
+      "has_chinese": true
+    },
+    "motion-patterns": {
+      "description_cn": "生产级动效模式：React/Next.js 的按钮、弹窗、Toast、交错、页面转场和滚动动画模式",
+      "keywords_cn": [
+        "动效模式",
+        "页面过渡",
+        "Framer Motion",
+        "交互动画",
+        "UI动效"
+      ],
+      "has_chinese": true
+    },
+    "motion-ui": {
+      "description_cn": "UI 动效系统：React/Next.js 的生产级动效系统，用于实现动画、过渡和动效模式",
+      "keywords_cn": [
+        "UI动效",
+        "动画系统",
+        "React",
+        "Next.js",
+        "过渡动画"
+      ],
+      "has_chinese": true
+    },
+    "mysql-patterns": {
+      "description_cn": "MySQL/MariaDB 模式：生产后端的 Schema 设计、查询优化、索引策略、事务、复制和连接池模式",
+      "keywords_cn": [
+        "MySQL",
+        "MariaDB",
+        "查询优化",
+        "索引",
+        "数据库管理"
+      ],
+      "has_chinese": true
+    },
+    "nanoclaw-repl": {
+      "description_cn": "NanoClaw REPL：操作和扩展 ECC 的零依赖、会话感知的 REPL，基于 claude -p 构建",
+      "keywords_cn": [
+        "NanoClaw",
+        "REPL",
+        "CLI",
+        "会话管理",
+        "claude-p"
+      ],
+      "has_chinese": true
+    },
+    "nestjs-patterns": {
+      "description_cn": "NestJS 架构模式：模块、控制器、Provider、DTO 验证、守卫、拦截器、配置和生产级 TypeScript 后端",
+      "keywords_cn": [
+        "NestJS",
+        "TypeScript",
+        "模块化",
+        "依赖注入",
+        "后端架构"
+      ],
+      "has_chinese": true
+    },
+    "netmiko-ssh-automation": {
+      "description_cn": "Netmiko SSH 自动化：安全的 Python Netmiko 模式，只读采集、批量 SSH、TextFSM 解析和配置变更防护",
+      "keywords_cn": [
+        "Netmiko",
+        "SSH自动化",
+        "网络运维",
+        "TextFSM",
+        "Python"
+      ],
+      "has_chinese": true
+    },
+    "network-bgp-diagnostics": {
+      "description_cn": "BGP 诊断：仅诊断模式的 BGP 故障排查，邻居状态、路由交换、前缀策略、AS 路径检查和证据收集",
+      "keywords_cn": [
+        "BGP",
+        "网络诊断",
+        "路由",
+        "AS路径",
+        "故障排查"
+      ],
+      "has_chinese": true
+    },
+    "network-config-validation": {
+      "description_cn": "网络配置验证：部署前检查路由器/交换机配置，危险命令、重复地址、子网重叠和安全卫生",
+      "keywords_cn": [
+        "网络配置",
+        "配置验证",
+        "部署前检查",
+        "网络安全",
+        "IOS"
+      ],
+      "has_chinese": true
+    },
+    "network-interface-health": {
+      "description_cn": "网络接口健康：诊断接口错误、丢包、CRC、双工不匹配、抖动、速率协商和计数器趋势",
+      "keywords_cn": [
+        "网络接口",
+        "错误诊断",
+        "双工不匹配",
+        "抖动",
+        "链路质量"
+      ],
+      "has_chinese": true
+    },
+    "nextjs-turbopack": {
+      "description_cn": "Next.js 16+ 与 Turbopack：增量打包、文件系统缓存、开发速度优化和 Turbopack vs webpack 的选择策略",
+      "keywords_cn": [
+        "Next.js",
+        "Turbopack",
+        "webpack",
+        "打包优化",
+        "开发速度"
+      ],
+      "has_chinese": true
+    },
+    "nodejs-keccak256": {
+      "description_cn": "Ethereum Keccak-256 哈希：防止 JS/TypeScript 中 Node 的 sha3-256（NIST SHA3）与 Ethereum Keccak-256 混淆导致的 bug",
+      "keywords_cn": [
+        "Keccak-256",
+        "Ethereum",
+        "SHA3",
+        "哈希",
+        "智能合约"
+      ],
+      "has_chinese": true
+    },
+    "nutrient-document-processing": {
+      "description_cn": "Nutrient 文档处理：使用 Nutrient DWS API 处理 PDF、DOCX、XLSX、PPTX、HTML 和图片的转换、OCR、提取、编辑和签名",
+      "keywords_cn": [
+        "文档处理",
+        "PDF",
+        "OCR",
+        "Nutrient",
+        "文档转换"
+      ],
+      "has_chinese": true
+    },
+    "nuxt4-patterns": {
+      "description_cn": "Nuxt 4 应用模式：水合安全、性能优化、路由规则、懒加载和 SSR 安全的数据获取",
+      "keywords_cn": [
+        "Nuxt 4",
+        "Vue.js",
+        "SSR",
+        "性能优化",
+        "数据获取"
+      ],
+      "has_chinese": true
+    },
+    "openclaw-persona-forge": {
+      "description_cn": "为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡， 输出身份定位、灵魂描述(SOUL.md)、角色化底线规则、名字和头像生图提示词。 如当前环境提供已审核的生图 skill，可自动生成统一风格头像图片。 当用户需要创建、设计或定制 OpenClaw 龙虾灵魂时使用。 不适用于：微调已有 SOUL.md、非 OpenClaw 平台的角色设计、纯工具型无性格 Agent。 触发词：龙虾灵魂、虾魂、OpenClaw 灵魂、养虾灵魂、龙虾角色、龙虾定位、 龙虾剧本杀角色、龙虾游戏角色、龙虾 NPC、龙虾性格、龙虾背景故事、 lobster soul、lobster character、抽卡、随机龙虾、龙虾 SOUL、gacha。",
+      "keywords_cn": [
+        "龙虾灵魂",
+        "角色锻造",
+        "OpenClaw",
+        "人物设定",
+        "SOUL.md"
+      ],
+      "has_chinese": true
+    },
+    "opensource-pipeline": {
+      "description_cn": "开源发布管道：分支、脱敏和打包私有项目以安全公开发布。串联3个Agent（分支器、脱敏器、打包器）。触发词：/opensource、open source this、发布到开源。",
+      "keywords_cn": [
+        "开源发布",
+        "代码脱敏",
+        "安全发布",
+        "Agent流水线"
+      ],
+      "has_chinese": true
+    },
+    "parallel-execution-optimizer": {
+      "description_cn": "并行执行优化：通过并行工作、并发Agent、批量工具调用、隔离工作树和独立验证通道加速任务执行，同时保证正确性。",
+      "keywords_cn": [
+        "并行执行",
+        "并发优化",
+        "任务加速",
+        "依赖图"
+      ],
+      "has_chinese": true
+    },
+    "perl-patterns": {
+      "description_cn": "Perl模式：现代Perl 5.36+惯用语法、最佳实践和约定，用于构建健壮、可维护的Perl应用。涵盖面向对象、MVC、错误处理和测试。",
+      "keywords_cn": [
+        "Perl模式",
+        "Perl最佳实践",
+        "Perl惯用语法",
+        "Perl 5.36"
+      ],
+      "has_chinese": true
+    },
+    "perl-security": {
+      "description_cn": "Perl安全：全面的Perl安全实践，涵盖taint模式、输入验证、安全进程管理、加密和认证。抵御注入攻击和安全漏洞。",
+      "keywords_cn": [
+        "Perl安全",
+        "taint模式",
+        "安全编码",
+        "输入验证"
+      ],
+      "has_chinese": true
+    },
+    "perl-testing": {
+      "description_cn": "Perl测试：使用Test2::V0、Test::More、prove运行器、Mocking和覆盖率分析的Perl测试模式。涵盖单元测试、集成测试和TDD方法论。",
+      "keywords_cn": [
+        "Perl测试",
+        "Test2::V0",
+        "单元测试",
+        "TDD",
+        "覆盖率"
+      ],
+      "has_chinese": true
+    },
+    "plan-orchestrate": {
+      "description_cn": "计划编排：读取计划文档，分解为步骤，设计每步的Agent链，从提示模板生成为最佳子Agent定义。确保复杂工作流的结构化执行。",
+      "keywords_cn": [
+        "计划编排",
+        "Agent链",
+        "工作流分解",
+        "子Agent"
+      ],
+      "has_chinese": true
+    },
+    "plankton-code-quality": {
+      "description_cn": "Plankton代码质量：写时代码质量强制工具——自动格式化、Lint和测试集成，确保代码在提交前符合质量标准。",
+      "keywords_cn": [
+        "代码质量",
+        "Plankton",
+        "自动格式化",
+        "Lint",
+        "代码审查"
+      ],
+      "has_chinese": true
+    },
+    "postgres-patterns": {
+      "description_cn": "PostgreSQL模式：PostgreSQL数据库模式，涵盖查询优化、Schema设计、索引策略、事务管理和高可用性架构。",
+      "keywords_cn": [
+        "PostgreSQL",
+        "查询优化",
+        "Schema设计",
+        "索引策略",
+        "数据库模式",
+        "SQL优化",
+        "数据库调优"
+      ],
+      "has_chinese": true
+    },
+    "prediction-market-oracle-research": {
+      "description_cn": "预测市场预言机研究：研究预测市场作为数据源或预言机信号，用于产品决策、Agent定价和市场分析。",
+      "keywords_cn": [
+        "预测市场",
+        "预言机",
+        "市场研究",
+        "数据源",
+        "Agent定价"
+      ],
+      "has_chinese": true
+    },
+    "prediction-market-risk-review": {
+      "description_cn": "预测市场风险审查：审查预测市场、篮子、预言机和交易Agent工作流的合规性和风险。确保市场操作安全可控。",
+      "keywords_cn": [
+        "预测市场",
+        "风险审查",
+        "合规性",
+        "交易Agent",
+        "市场风险"
+      ],
+      "has_chinese": true
+    },
+    "prisma-patterns": {
+      "description_cn": "Prisma模式：TypeScript后端的Prisma ORM模式——Schema设计、查询优化、迁移管理和最佳实践。",
+      "keywords_cn": [
+        "Prisma ORM",
+        "Schema设计",
+        "TypeScript",
+        "查询优化",
+        "数据库迁移"
+      ],
+      "has_chinese": true
+    },
+    "product-capability": {
+      "description_cn": "产品能力：将PRD意图、路线图需求或产品讨论转化为可实现的实施方案。连接产品愿景与技术实现。",
+      "keywords_cn": [
+        "产品能力",
+        "PRD转化",
+        "产品路线图",
+        "实施方案"
+      ],
+      "has_chinese": true
+    },
+    "product-lens": {
+      "description_cn": "产品视角：在开始构建之前验证\"为什么\"，运行产品诊断，评估产品与市场契合度，避免投入错误的功能。",
+      "keywords_cn": [
+        "产品验证",
+        "产品诊断",
+        "产品市场契合",
+        "需求评估"
+      ],
+      "has_chinese": true
+    },
+    "production-audit": {
+      "description_cn": "生产审计：基于本地证据的上线应用生产就绪审计、预上线审查和发布前检查。确保应用达到生产标准。",
+      "keywords_cn": [
+        "生产审计",
+        "上线审查",
+        "发布检查",
+        "生产就绪",
+        "质量保证"
+      ],
+      "has_chinese": true
+    },
+    "production-scheduling": {
+      "description_cn": "生产调度：离散和批量制造业的生产调度、作业排序、生产线平衡、换型优化和瓶颈解决的编码专业知识。涵盖TOC/鼓-缓冲-绳、SMED、OEE分析和ERP/MES交互模式。",
+      "keywords_cn": [
+        "生产调度",
+        "瓶颈解决",
+        "TOC",
+        "SMED",
+        "OEE分析"
+      ],
+      "has_chinese": true
+    },
+    "project-flow-ops": {
+      "description_cn": "项目流程运维：通过分类GitHub和Linear的问题和Pull Request来操作执行流。自动分配、追踪和报告项目进度。",
+      "keywords_cn": [
+        "项目流程",
+        "GitHub运维",
+        "Linear集成",
+        "问题分类",
+        "PR管理"
+      ],
+      "has_chinese": true
+    },
+    "prompt-optimizer": {
+      "description_cn": "提示优化器：分析原始提示，识别意图和缺口，匹配ECC组件（技能/命令/Agent/Hooks），输出可直接粘贴的优化提示。仅提供建议，不执行任务本身。",
+      "keywords_cn": [
+        "提示优化",
+        "Prompt工程",
+        "ECC组件",
+        "意图分析"
+      ],
+      "has_chinese": true
+    },
+    "python-patterns": {
+      "description_cn": "Python模式：Python惯用语法、PEP 8标准、类型提示和最佳实践，用于构建健壮、可维护的Python应用。涵盖OOP、函数式编程、异步模式和包管理。",
+      "keywords_cn": [
+        "Python模式",
+        "PEP 8",
+        "类型提示",
+        "最佳实践",
+        "Python惯用语法",
+        "Python"
+      ],
+      "has_chinese": true
+    },
+    "python-testing": {
+      "description_cn": "Python测试：使用pytest、TDD方法论、Fixtures、Mocking、参数化和覆盖率分析的Python测试策略。涵盖单元测试到集成测试。",
+      "keywords_cn": [
+        "Python测试",
+        "pytest",
+        "TDD",
+        "Mocking",
+        "测试覆盖率"
+      ],
+      "has_chinese": true
+    },
+    "pytorch-patterns": {
+      "description_cn": "PyTorch模式：PyTorch深度学习模式和最佳实践，用于构建健壮、高效的模型。涵盖模型架构、训练循环、数据加载、分布式训练和模型部署。",
+      "keywords_cn": [
+        "PyTorch",
+        "深度学习",
+        "模型架构",
+        "训练优化",
+        "最佳实践"
+      ],
+      "has_chinese": true
+    },
+    "quality-nonconformance": {
+      "description_cn": "质量不合格管理：质量控制的编码专业知识——不合格调查、根本原因分析、纠正措施和供应商质量管理。涵盖NCR生命周期、CAPA系统、SPC解读和审核方法论。",
+      "keywords_cn": [
+        "质量不合格",
+        "根本原因分析",
+        "CAPA",
+        "SPC",
+        "供应商质量"
+      ],
+      "has_chinese": true
+    },
+    "quarkus-patterns": {
+      "description_cn": "Quarkus模式：Quarkus 3.x LTS架构模式，涵盖Camel消息传递、RESTful API设计、持久化、反应式编程和云原生部署。",
+      "keywords_cn": [
+        "Quarkus",
+        "Camel集成",
+        "RESTful API",
+        "云原生",
+        "反应式编程"
+      ],
+      "has_chinese": true
+    },
+    "quarkus-security": {
+      "description_cn": "Quarkus安全：Quarkus安全最佳实践——身份验证、授权、JWT/OIDC、RBAC、输入验证、CSRF防护和密钥管理。",
+      "keywords_cn": [
+        "Quarkus安全",
+        "JWT",
+        "OIDC",
+        "RBAC",
+        "安全最佳实践"
+      ],
+      "has_chinese": true
+    },
+    "quarkus-tdd": {
+      "description_cn": "Quarkus TDD：使用JUnit 5、Mockito、REST Assured和Testcontainers进行Quarkus 3.x LTS的测试驱动开发。",
+      "keywords_cn": [
+        "Quarkus TDD",
+        "JUnit 5",
+        "Mockito",
+        "REST Assured",
+        "Testcontainers"
+      ],
+      "has_chinese": true
+    },
+    "quarkus-verification": {
+      "description_cn": "Quarkus验证：Quarkus项目的验证循环——构建、静态分析、带覆盖率报告的测试和集成测试。确保代码质量和可靠性。",
+      "keywords_cn": [
+        "Quarkus验证",
+        "静态分析",
+        "测试覆盖率",
+        "集成测试",
+        "代码质量"
+      ],
+      "has_chinese": true
+    },
+    "ralphinho-rfc-pipeline": {
+      "description_cn": "RFC驱动管道：RFC驱动的多Agent DAG执行模式，带质量门禁、合并队列和并行执行。支持复杂的文档驱动工作流。",
+      "keywords_cn": [
+        "RFC驱动",
+        "多Agent",
+        "DAG执行",
+        "质量门禁",
+        "合并队列"
+      ],
+      "has_chinese": true
+    },
+    "react-patterns": {
+      "description_cn": "React模式：React 18/19模式——Hooks规范、服务端/客户端组件边界、状态管理、性能优化和组件设计模式。",
+      "keywords_cn": [
+        "React模式",
+        "Hooks",
+        "服务端组件",
+        "状态管理",
+        "性能优化"
+      ],
+      "has_chinese": true
+    },
+    "react-performance": {
+      "description_cn": "React性能：React和Next.js性能优化模式——改写Vercel工程师指南。涵盖渲染优化、代码分割、缓存策略和加载性能。",
+      "keywords_cn": [
+        "React性能",
+        "Next.js",
+        "渲染优化",
+        "代码分割",
+        "缓存策略",
+        "前端优化",
+        "性能调优"
+      ],
+      "has_chinese": true
+    },
+    "react-testing": {
+      "description_cn": "React测试：使用React Testing Library、Vitest/Jest、MSW进行网络Mock、Cypress端到端测试和a11y断言的React组件测试。",
+      "keywords_cn": [
+        "React测试",
+        "Testing Library",
+        "Vitest",
+        "MSW",
+        "Cypress"
+      ],
+      "has_chinese": true
+    },
+    "recsys-pipeline-architect": {
+      "description_cn": "推荐系统管道架构：使用六阶段架构（检索→过滤→排序→重排→策略→交付）设计可组合的推荐、排序和Feed管道。",
+      "keywords_cn": [
+        "推荐系统",
+        "排序管道",
+        "检索过滤",
+        "六阶段架构",
+        "Feed管道"
+      ],
+      "has_chinese": true
+    },
+    "recursive-decision-ledger": {
+      "description_cn": "递归决策账本：用于重复发布、标记决策过程、高维度依赖和变更记录的场景。提供结构化的决策追踪和审计。",
+      "keywords_cn": [
+        "决策账本",
+        "变更记录",
+        "决策追踪",
+        "审计跟踪"
+      ],
+      "has_chinese": true
+    },
+    "redis-patterns": {
+      "description_cn": "Redis模式：Redis数据结构模式、缓存策略、分布式锁、速率限制、消息队列和集群架构的最佳实践。",
+      "keywords_cn": [
+        "Redis",
+        "缓存策略",
+        "分布式锁",
+        "速率限制",
+        "消息队列"
+      ],
+      "has_chinese": true
+    },
+    "regex-vs-llm-structured-text": {
+      "description_cn": "正则 vs LLM结构化文本：解析结构化文本时在正则表达式和LLM之间做选择的决策框架。适用于日志解析、数据提取、格式化转换等场景。",
+      "keywords_cn": [
+        "正则表达式",
+        "LLM解析",
+        "结构化文本",
+        "决策框架"
+      ],
+      "has_chinese": true
+    },
+    "remotion-video-creation": {
+      "description_cn": "Remotion视频创作：Remotion视频创作最佳实践——29个领域特定规则，涵盖React组件动画、序列编排、渲染优化和音频同步。",
+      "keywords_cn": [
+        "Remotion",
+        "视频创作",
+        "React动画",
+        "序列编排",
+        "渲染优化"
+      ],
+      "has_chinese": true
+    },
+    "repo-scan": {
+      "description_cn": "仓库扫描：跨技术栈源代码资产审计——分类每个文件、检测嵌入式资源、发现安全风险并生成结构化的资产清单。",
+      "keywords_cn": [
+        "仓库扫描",
+        "资产审计",
+        "代码分类",
+        "安全检测",
+        "资产清单"
+      ],
+      "has_chinese": true
+    },
+    "research-ops": {
+      "description_cn": "研究运维：以证据为先的当前状态研究工作流。用于用户需要快速了解主题、做竞品分析或系统收集信息时。",
+      "keywords_cn": [
+        "研究运维",
+        "证据驱动",
+        "竞品分析",
+        "信息收集",
+        "研究流程"
+      ],
+      "has_chinese": true
+    },
+    "returns-reverse-logistics": {
+      "description_cn": "退货逆向物流：退货授权、收货检验、处置决策、退款处理、欺诈检测和保修索赔管理的编码专业知识。涵盖分级框架、处置经济学和供应商回收流程。",
+      "keywords_cn": [
+        "退货管理",
+        "逆向物流",
+        "欺诈检测",
+        "退款处理",
+        "保修管理"
+      ],
+      "has_chinese": true
+    },
+    "rules-distill": {
+      "description_cn": "规则提炼：扫描技能以提取跨领域原则并提炼为规则——应用于CLAUDE.md或其他规则文件。优化LLM行为指南。",
+      "keywords_cn": [
+        "规则提炼",
+        "原则提取",
+        "CLAUDE.md",
+        "优化指南"
+      ],
+      "has_chinese": true
+    },
+    "rust-patterns": {
+      "description_cn": "Rust模式：惯用Rust模式——所有权、错误处理、Trait、并发和最佳实践，用于构建健壮、高效的Rust应用。",
+      "keywords_cn": [
+        "Rust模式",
+        "所有权",
+        "错误处理",
+        "Trait",
+        "并发编程"
+      ],
+      "has_chinese": true
+    },
+    "rust-testing": {
+      "description_cn": "Rust测试：Rust测试模式——单元测试、集成测试、异步测试、属性测试（proptest）、基准测试和Mocking。",
+      "keywords_cn": [
+        "Rust测试",
+        "单元测试",
+        "集成测试",
+        "属性测试",
+        "基准测试"
+      ],
+      "has_chinese": true
+    },
+    "safety-guard": {
+      "description_cn": "安全防护：防止生产系统上的破坏性操作。在执行删除、覆盖、关闭或大规模变更前引入二次确认和安全检查。",
+      "keywords_cn": [
+        "安全防护",
+        "破坏性操作",
+        "二次确认",
+        "安全检查",
+        "生产安全"
+      ],
+      "has_chinese": true
+    },
+    "santa-method": {
+      "description_cn": "双Agent对抗验证：双独立审阅者Agent加收敛循环。一个Agent生成答案，另一个Agent对抗性质疑，直到达成一致或达到最大迭代次数。",
+      "keywords_cn": [
+        "双Agent验证",
+        "对抗审查",
+        "收敛循环",
+        "质量保证"
+      ],
+      "has_chinese": true
+    },
+    "pubmed-database": {
+      "description_cn": "PubMed数据库：直接PubMed和NCBI E-Utilities搜索工作流，用于生物医学文献、MeSH术语、基因信息和文献计量分析。",
+      "keywords_cn": [
+        "PubMed",
+        "NCBI",
+        "生物医学文献",
+        "MeSH",
+        "文献计量"
+      ],
+      "has_chinese": true
+    },
+    "uspto-database": {
+      "description_cn": "USPTO数据库：USPTO专利和商标数据工作流——官方记录查询、专利搜索、商标搜索、引用追踪和法律状态检查。",
+      "keywords_cn": [
+        "USPTO",
+        "专利搜索",
+        "商标搜索",
+        "引用追踪",
+        "法律状态"
+      ],
+      "has_chinese": true
+    },
+    "gget": {
+      "description_cn": "gget生物信息学：gget CLI和Python工作流——快速基因组数据库查询、序列查找、单细胞RNA-seq分析和转录组数据探索。",
+      "keywords_cn": [
+        "gget",
+        "生物信息学",
+        "基因组查询",
+        "单细胞RNA-seq",
+        "转录组"
+      ],
+      "has_chinese": true
+    },
+    "literature-review": {
+      "description_cn": "学术文献综述：系统化文献综述工作流——适用于学术、生物医学、技术和科学研究。涵盖搜索策略、筛选、质量评估和综合。",
+      "keywords_cn": [
+        "文献综述",
+        "系统化综述",
+        "学术研究",
+        "质量评估",
+        "综合"
+      ],
+      "has_chinese": true
+    },
+    "scholar-evaluation": {
+      "description_cn": "学术成果评估：结构化学术工作评估——论文、提案、文献综述和投稿。提供多维度评分和建设性反馈。",
+      "keywords_cn": [
+        "学术评估",
+        "成果评审",
+        "论文评价",
+        "建设性反馈",
+        "多维度评分"
+      ],
+      "has_chinese": true
+    },
+    "search-first": {
+      "description_cn": "搜索优先：研究优先于编码的工作流。在编码前搜索现有工具、库和模式。避免重复造轮子，确保采用最佳方案。",
+      "keywords_cn": [
+        "搜索优先",
+        "代码研究",
+        "避免重复",
+        "最佳实践"
+      ],
+      "has_chinese": true
+    },
+    "security-bounty-hunter": {
+      "description_cn": "安全赏金猎人：在仓库中搜寻可利用、可获赏金的安全问题。重点关注OWASP Top 10漏洞、逻辑缺陷和配置弱点。",
+      "keywords_cn": [
+        "安全赏金",
+        "漏洞挖掘",
+        "OWASP Top 10",
+        "安全审计",
+        "渗透测试"
+      ],
+      "has_chinese": true
+    },
+    "security-review": {
+      "description_cn": "安全审查：添加身份验证、处理用户输入、使用安全敏感API或审计现有代码库安全漏洞时的安全审查技能。",
+      "keywords_cn": [
+        "安全审查",
+        "身份验证",
+        "输入验证",
+        "安全审计",
+        "漏洞检测",
+        "认证",
+        "授权",
+        "漏洞"
+      ],
+      "has_chinese": true
+    },
+    "security-scan": {
+      "description_cn": "安全扫描：扫描Claude Code配置（.claude/目录）的安全漏洞。检测配置错误、密钥泄露和不安全设置。",
+      "keywords_cn": [
+        "安全扫描",
+        "配置审计",
+        "密钥检测",
+        "Claude Code"
+      ],
+      "has_chinese": true
+    },
+    "seo": {
+      "description_cn": "SEO优化：审计、规划和实施SEO改进——技术SEO、页面优化、内容策略、链接建设和性能优化。",
+      "keywords_cn": [
+        "SEO",
+        "搜索引擎优化",
+        "技术SEO",
+        "内容策略",
+        "链接建设"
+      ],
+      "has_chinese": true
+    },
+    "skill-comply": {
+      "description_cn": "技能合规检查：可视化检查技能、规则和Agent定义是否被实际遵循。通过语义分析、触发追踪和行为审计验证合规性。",
+      "keywords_cn": [
+        "技能合规",
+        "行为审计",
+        "触发追踪",
+        "合规检查"
+      ],
+      "has_chinese": true
+    },
+    "skill-scout": {
+      "description_cn": "技能侦察：在创建前搜索本地、市场、GitHub和Web上的现有技能来源。避免重复创建，发现可复用的技能资产。",
+      "keywords_cn": [
+        "技能侦察",
+        "技能搜索",
+        "复用发现",
+        "市场搜索"
+      ],
+      "has_chinese": true
+    },
+    "skill-stocktake": {
+      "description_cn": "技能盘点：审计Claude技能和命令的质量。支持快速扫描（检查摘要质量）和深度审计（完整技能评估）。",
+      "keywords_cn": [
+        "技能盘点",
+        "技能审计",
+        "质量评估",
+        "快速扫描",
+        "深度审计"
+      ],
+      "has_chinese": true
+    },
+    "social-graph-ranker": {
+      "description_cn": "社交图谱排名：加权社交图谱排名——用于温暖介绍发现、搭桥评分和网络分析。优化人脉关系利用。",
+      "keywords_cn": [
+        "社交图谱",
+        "人脉排名",
+        "温暖介绍",
+        "网络分析",
+        "搭桥评分"
+      ],
+      "has_chinese": true
+    },
+    "social-publisher": {
+      "description_cn": "社交媒体发布器：Agent驱动的社交媒体排程和发布——支持13个平台，涵盖内容创建、排程、发布和分析。",
+      "keywords_cn": [
+        "社交媒体",
+        "内容排程",
+        "自动发布",
+        "多平台",
+        "社交管理"
+      ],
+      "has_chinese": true
+    },
+    "springboot-patterns": {
+      "description_cn": "Spring Boot模式：Spring Boot架构模式——REST API设计、分层服务、数据访问、安全配置、测试和微服务最佳实践。",
+      "keywords_cn": [
+        "Spring Boot",
+        "REST API",
+        "微服务",
+        "分层架构",
+        "最佳实践"
+      ],
+      "has_chinese": true
+    },
+    "springboot-security": {
+      "description_cn": "Spring Boot安全：Spring Security最佳实践——身份验证/授权、输入验证、CSRF防护、密钥管理、CORS和Headers安全。",
+      "keywords_cn": [
+        "Spring Security",
+        "身份验证",
+        "授权",
+        "CSRF防护",
+        "安全配置"
+      ],
+      "has_chinese": true
+    },
+    "springboot-tdd": {
+      "description_cn": "Spring Boot TDD：使用JUnit 5、Mockito、MockMvc、Testcontainers和Spring Boot测试切片进行测试驱动开发。",
+      "keywords_cn": [
+        "Spring Boot TDD",
+        "JUnit 5",
+        "Mockito",
+        "MockMvc",
+        "Testcontainers"
+      ],
+      "has_chinese": true
+    },
+    "springboot-verification": {
+      "description_cn": "Spring Boot验证：Spring Boot项目的验证循环——构建、静态分析、带覆盖率报告的测试和集成测试。",
+      "keywords_cn": [
+        "Spring Boot验证",
+        "静态分析",
+        "测试覆盖率",
+        "集成测试",
+        "代码质量"
+      ],
+      "has_chinese": true
+    },
+    "strategic-compact": {
+      "description_cn": "策略化压缩：建议在逻辑间隔处进行手动上下文压缩，以在长时间会话中保留上下文深度。优化长会话的token使用效率。",
+      "keywords_cn": [
+        "上下文压缩",
+        "Token优化",
+        "长会话",
+        "策略化压缩"
+      ],
+      "has_chinese": true
+    },
+    "swift-actor-persistence": {
+      "description_cn": "Swift Actor持久化：Swift中使用Actor的线程安全数据持久化——内存缓存结合基于文件的存储，提供安全的并发数据访问。",
+      "keywords_cn": [
+        "Swift Actor",
+        "线程安全",
+        "数据持久化",
+        "并发安全",
+        "内存缓存"
+      ],
+      "has_chinese": true
+    },
+    "swift-concurrency-6-2": {
+      "description_cn": "Swift 6.2并发：Swift 6.2可接近并发模型——默认单线程，@concurrent用于显式并发，Actor隔离和数据竞争安全。",
+      "keywords_cn": [
+        "Swift并发",
+        "Swift 6.2",
+        "Actor隔离",
+        "数据竞争安全",
+        "并发模型"
+      ],
+      "has_chinese": true
+    },
+    "swift-protocol-di-testing": {
+      "description_cn": "Swift协议DI测试：基于协议依赖注入的可测试Swift代码——Mock文件系统、网络层和数据库，实现干净测试。",
+      "keywords_cn": [
+        "Swift测试",
+        "依赖注入",
+        "协议Mock",
+        "可测试性",
+        "Swift协议"
+      ],
+      "has_chinese": true
+    },
+    "swiftui-patterns": {
+      "description_cn": "SwiftUI模式：SwiftUI架构模式——@Observable状态管理、视图组合、导航、数据流和可访问性最佳实践。",
+      "keywords_cn": [
+        "SwiftUI",
+        "状态管理",
+        "@Observable",
+        "视图组合",
+        "最佳实践"
+      ],
+      "has_chinese": true
+    },
+    "tdd-workflow": {
+      "description_cn": "TDD工作流：编写新功能、修复Bug或重构代码时使用。强制红-绿-重构循环，确保测试先行和高质量输出。",
+      "keywords_cn": [
+        "TDD",
+        "红绿重构",
+        "测试驱动",
+        "重构",
+        "代码质量"
+      ],
+      "has_chinese": true
+    },
+    "team-agent-orchestration": {
+      "description_cn": "团队Agent编排：使用工作项、所有权、Agent角色和通信协议运行基于团队的Agent编组编排。支持复杂多Agent协作。",
+      "keywords_cn": [
+        "Agent编排",
+        "团队协作",
+        "工作项",
+        "Agent角色",
+        "多Agent"
+      ],
+      "has_chinese": true
+    },
+    "team-builder": {
+      "description_cn": "团队构建器：交互式Agent选择器——用于组建和分派并行团队。根据任务需求自动推荐最优Agent组合。",
+      "keywords_cn": [
+        "团队构建",
+        "Agent选择",
+        "并行团队",
+        "任务分派"
+      ],
+      "has_chinese": true
+    },
+    "terminal-ops": {
+      "description_cn": "终端运维：以证据为先的仓库执行工作流。用于用户需要运行命令、执行脚本或自动化终端操作时。",
+      "keywords_cn": [
+        "终端运维",
+        "命令执行",
+        "脚本自动化",
+        "证据驱动"
+      ],
+      "has_chinese": true
+    },
+    "tinystruct-patterns": {
+      "description_cn": "tinystruct模式：使用tinystruct Java框架开发的专家指南。涵盖架构、依赖注入、配置管理和微服务开发。",
+      "keywords_cn": [
+        "tinystruct",
+        "Java框架",
+        "依赖注入",
+        "微服务",
+        "架构模式"
+      ],
+      "has_chinese": true
+    },
+    "token-budget-advisor": {
+      "description_cn": "Token预算顾问：在回答前为用户提供关于响应深度的知情选择。控制响应长度、深度或Token预算时使用。",
+      "keywords_cn": [
+        "Token预算",
+        "响应深度",
+        "长度控制",
+        "LLM优化"
+      ],
+      "has_chinese": true
+    },
+    "ui-demo": {
+      "description_cn": "UI演示录制：使用Playwright录制精美UI演示视频。用于用户需要创建产品演示、功能展示或教程视频。",
+      "keywords_cn": [
+        "UI演示",
+        "Playwright",
+        "视频录制",
+        "产品展示"
+      ],
+      "has_chinese": true
+    },
+    "ui-to-vue": {
+      "description_cn": "UI转Vue：将UI截图或设计稿批量转换为Vue 3组件。支持从图片设计到可运行Vue代码的端到端转换。",
+      "keywords_cn": [
+        "UI转Vue",
+        "Vue 3",
+        "截图转换",
+        "组件生成",
+        "前端开发"
+      ],
+      "has_chinese": true
+    },
+    "uncloud": {
+      "description_cn": "Uncloud管理：管理Uncloud集群——部署服务、配置Caddy Ingress、监控节点和管理容器化应用。",
+      "keywords_cn": [
+        "Uncloud",
+        "集群管理",
+        "Caddy",
+        "容器部署",
+        "服务运维"
+      ],
+      "has_chinese": true
+    },
+    "unified-notifications-ops": {
+      "description_cn": "统一通知运维：将通知统一为ECC原生工作流——跨越GitHub、Linear、桌面通知和更多渠道。集中管理和路由。",
+      "keywords_cn": [
+        "通知运维",
+        "统一通知",
+        "GitHub集成",
+        "Linear集成",
+        "桌面通知"
+      ],
+      "has_chinese": true
+    },
+    "verification-loop": {
+      "description_cn": "验证循环：Claude Code会话的全面验证系统。提供自动化验证、结果追踪和质量报告。",
+      "keywords_cn": [
+        "验证循环",
+        "自动验证",
+        "结果追踪",
+        "质量报告"
+      ],
+      "has_chinese": true
+    },
+    "video-editing": {
+      "description_cn": "视频编辑：AI辅助视频编辑工作流——剪辑、结构化和增强真实视频素材。涵盖剪切、转场、字幕和时间线优化。",
+      "keywords_cn": [
+        "视频编辑",
+        "AI辅助",
+        "视频剪辑",
+        "字幕添加",
+        "时间线优化"
+      ],
+      "has_chinese": true
+    },
+    "videodb": {
+      "description_cn": "VideoDB：观看、理解和操作视频与音频——从本地文件、URL、RTSP流或S3摄取，执行搜索、剪辑、转写和分析。",
+      "keywords_cn": [
+        "VideoDB",
+        "视频分析",
+        "音频处理",
+        "视频搜索",
+        "转写"
+      ],
+      "has_chinese": true
+    },
+    "visa-doc-translate": {
+      "description_cn": "签证文档翻译：将签证申请文档（图片）翻译为英文并创建中英双语对照PDF。支持护照、申请表、银行流水等。",
+      "keywords_cn": [
+        "签证翻译",
+        "文档翻译",
+        "双语PDF",
+        "OCR",
+        "签证材料"
+      ],
+      "has_chinese": true
+    },
+    "vite-patterns": {
+      "description_cn": "Vite模式：Vite构建工具模式——配置、插件、HMR、环境变量、代理设置和构建优化。现代前端构建最佳实践。",
+      "keywords_cn": [
+        "Vite",
+        "构建工具",
+        "HMR",
+        "插件开发",
+        "构建优化"
+      ],
+      "has_chinese": true
+    },
+    "windows-desktop-e2e": {
+      "description_cn": "Windows桌面端到端测试：使用WinAppDriver、PyAutoGUI和Appium进行Windows原生桌面应用（WPF、WinForms、Win32/MFC、Qt）的端到端测试。",
+      "keywords_cn": [
+        "Windows测试",
+        "桌面端测试",
+        "WinAppDriver",
+        "E2E测试",
+        "自动化测试"
+      ],
+      "has_chinese": true
+    },
+    "workspace-surface-audit": {
+      "description_cn": "工作区表面审计：审计活跃仓库、MCP服务器、插件、连接器、环境表面和可用的Agent能力。提供全面的工作区画像。",
+      "keywords_cn": [
+        "工作区审计",
+        "MCP服务器",
+        "能力映射",
+        "环境审计"
+      ],
+      "has_chinese": true
+    },
+    "x-api": {
+      "description_cn": "X/Twitter API集成：发推、发Thread、阅读时间线、搜索和API集成。管理社交媒体内容发布和数据分析。",
+      "keywords_cn": [
+        "X API",
+        "Twitter集成",
+        "发推",
+        "时间线读取",
+        "社交媒体"
+      ],
+      "has_chinese": true
+    },
+    "himalaya": {
+      "description_cn": "Himalaya CLI: IMAP/SMTP email from terminal.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "minecraft-modpack-server": {
+      "description_cn": "Host modded Minecraft servers (CurseForge, Modrinth).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "pokemon-player": {
+      "description_cn": "Play Pokemon via headless emulator + RAM reads.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "codebase-inspection": {
+      "description_cn": "Inspect codebases w/ pygount: LOC, languages, ratios.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "github-auth": {
+      "description_cn": "GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "github-code-review": {
+      "description_cn": "Review PRs: diffs, inline comments via gh or REST.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "github-issues": {
+      "description_cn": "Create, triage, label, assign GitHub issues via gh or REST.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "github-pr-workflow": {
+      "description_cn": "GitHub PR lifecycle: branch, commit, open, CI, merge.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "github-repo-management": {
+      "description_cn": "Clone/create/fork repos; manage remotes, releases.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "grok-image-to-video": {
+      "description_cn": "Animate a local image into a short mp4 video through Hermes Web UI using xAI Grok Imagine.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "hyperframes": {
+      "description_cn": "Create AI videos with HyperFrames in Hermes using HTML, CSS, and JavaScript compositions, then validate and render them to MP4. Use for short video intros, cinematic trailers, product promos, subtitle animations, HUD/tech visuals, web-to-video work, and motion graphics.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "markdown-viewer": {
+      "description_cn": "Create rich diagrams, data visualizations, technical architecture views, and editorial content cards directly in Markdown using the Markdown Viewer Agent Skills pack. Use for Mermaid-like diagram requests, PlantUML architecture diagrams, Vega charts, JSON Canvas maps, infographics, UML, cloud/network/security/data/IoT diagrams, and polished Markdown documentation visuals.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "caveman": {
+      "description_cn": "极简沟通模式。用最简单直白的方式表达复杂想法 Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler, articles, and pleasantries while keeping full technical accuracy. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman.",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "diagnose": {
+      "description_cn": "系统化调试循环。针对顽固 Bug 和性能问题，按步骤诊断、假设、验证",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "edit-article": {
+      "description_cn": "文章编辑优化。重组结构、优化语言、改进可读性",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "git-guardrails-claude-code": {
+      "description_cn": "Git 操作安全护栏。阻止危险 Git 命令（force push 等）",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "grill-me": {
+      "description_cn": "彻底拷问式需求对齐。逐条追问你的计划，直到双方完全达成共识",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "grill-with-docs": {
+      "description_cn": "加强版需求对齐。拷问你的计划，同时构建共享语言字典和 ADR 文档",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "handoff": {
+      "description_cn": "会话交接。把当前对话压缩成交接文档，方便其他 AI 接手",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "improve-codebase-architecture": {
+      "description_cn": "代码库架构改良。识别代码中的模式深化机会并逐步改进",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "migrate-to-shoehorn": {
+      "description_cn": "测试迁移。从 as 类型断言迁移到 @total-typescript/shoehorn",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "obsidian-vault": {
+      "description_cn": "Obsidian 笔记管理。在 Obsidian 仓库中搜索、创建、编辑笔记",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "prototype": {
+      "description_cn": "快速原型设计。在正式编码前通过可丢弃的原型验证设计思路",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "review": {
+      "description_cn": "审查指定范围内的代码变更（commit/branch/tag）",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "scaffold-exercises": {
+      "description_cn": "练习脚手架。创建带章节、问题和解决方案的练习结构",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "setup-pre-commit": {
+      "description_cn": "配置 Husky pre-commit 钩子。Prettier 和 TypeScript 自动检查",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "tdd": {
+      "description_cn": "测试驱动开发。红-绿-重构循环，强调行为测试而非实现细节",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "teach": {
+      "description_cn": "教学技能。在当前工作区内逐步教导用户新技能或概念",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "to-issues": {
+      "description_cn": "把计划或 PRD 分解为可独立领取的 Issue",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "to-prd": {
+      "description_cn": "把当前对话转化为 PRD 产品需求文档并发布",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "triage": {
+      "description_cn": "Issue 分类排序。通过状态机驱动的分类流程管理 Issue",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "write-a-skill": {
+      "description_cn": "编写 AI 技能。创建结构完整、渐进式披露的新技能",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "writing-beats": {
+      "description_cn": "文章节奏设计。把文章编排成跌宕起伏的节拍旅程",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "writing-fragments": {
+      "description_cn": "写作素材挖掘。通过拷问式对话挖掘零散的写作素材",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "writing-shape": {
+      "description_cn": "文章塑形。把原始素材整理成结构清晰的文章",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "zoom-out": {
+      "description_cn": "全局视角。让 AI 从系统整体角度解释代码",
+      "keywords_cn": [],
+      "has_chinese": true
+    },
+    "native-mcp": {
+      "description_cn": "MCP client: connect servers, register tools (stdio/HTTP).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "gif-search": {
+      "description_cn": "Search/download GIFs from Tenor via curl + jq.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "heartmula": {
+      "description_cn": "HeartMuLa: Suno-like song generation from lyrics + tags.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "songsee": {
+      "description_cn": "Audio spectrograms/features (mel, chroma, MFCC) via CLI.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "spotify": {
+      "description_cn": "Spotify: play, search, queue, manage playlists and devices.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "youtube-content": {
+      "description_cn": "YouTube transcripts to summaries, threads, blogs.",
+      "keywords_cn": [
+        "YouTube",
+        "转录",
+        "摘要"
+      ],
+      "has_chinese": false
+    },
+    "evaluating-llms-harness": {
+      "description_cn": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "weights-and-biases": {
+      "description_cn": "W&B: log ML experiments, sweeps, model registry, dashboards.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "huggingface-hub": {
+      "description_cn": "HuggingFace hf CLI: search/download/upload models, datasets.",
+      "keywords_cn": [
+        "HuggingFace",
+        "模型下载",
+        "数据集"
+      ],
+      "has_chinese": false
+    },
+    "llama-cpp": {
+      "description_cn": "llama.cpp local GGUF inference + HF Hub model discovery.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "obliteratus": {
+      "description_cn": "OBLITERATUS: abliterate LLM refusals (diff-in-means).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "serving-llms-vllm": {
+      "description_cn": "vLLM: high-throughput LLM serving, OpenAI API, quantization.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "audiocraft-audio-generation": {
+      "description_cn": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "segment-anything-model": {
+      "description_cn": "SAM: zero-shot image segmentation via points, boxes, masks.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "dspy": {
+      "description_cn": "DSPy: declarative LM programs, auto-optimize prompts, RAG.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "obsidian": {
+      "description_cn": "Read, search, create, and edit notes in the Obsidian vault.",
+      "keywords_cn": [
+        "Obsidian",
+        "笔记",
+        "知识管理"
+      ],
+      "has_chinese": false
+    },
+    "airtable": {
+      "description_cn": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "google-workspace": {
+      "description_cn": "Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "linear": {
+      "description_cn": "Linear: manage issues, projects, teams via GraphQL + curl.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "maps": {
+      "description_cn": "Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "nano-pdf": {
+      "description_cn": "Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "notion": {
+      "description_cn": "Notion API + ntn CLI: pages, databases, markdown, Workers.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "ocr-and-documents": {
+      "description_cn": "Extract text from PDFs/scans (pymupdf, marker-pdf).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "powerpoint": {
+      "description_cn": "Create, read, edit .pptx decks, slides, notes, templates.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "teams-meeting-pipeline": {
+      "description_cn": "Operate the Teams meeting summary pipeline via Hermes CLI — summarize meetings, inspect pipeline status, replay jobs, manage Microsoft Graph subscriptions.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "godmode": {
+      "description_cn": "Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "remotion": {
+      "description_cn": "Create editable AI video projects with Remotion and React, then preview and render them to MP4. Use for vertical short videos, product demos, story-driven animations, HUD/tech visuals, feed ads, tutorial videos, subtitles, voiceover, sound effects, and code-based video iteration.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "arxiv": {
+      "description_cn": "Search arXiv papers by keyword, author, category, or ID.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "blogwatcher": {
+      "description_cn": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "llm-wiki": {
+      "description_cn": "Karpathy's LLM Wiki: build/query interlinked markdown KB.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "polymarket": {
+      "description_cn": "Query Polymarket: markets, prices, orderbooks, history.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "research-paper-writing": {
+      "description_cn": "Write ML papers for NeurIPS/ICML/ICLR: design→submit.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "openhue": {
+      "description_cn": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "xurl": {
+      "description_cn": "X/Twitter via xurl CLI: post, search, DM, media, v2 API.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "chinese-skill-system-optimization": {
+      "description_cn": "优化 Hermes 技能系统对中文用户的匹配能力和使用体验。覆盖审计、决策树设计、代码修复、内容翻译、架构升级全链路。包含 SOUL.md 决策树、自动加载器（链式加载+缓存）、中文关键词、研究守卫、渐进披露、skill_search、用量统计、ECC 方案对比等子系统。",
+      "keywords_cn": [
+        "技能系统",
+        "中文化",
+        "自动加载器",
+        "关键词匹配",
+        "系统优化"
+      ],
+      "has_chinese": true
+    },
+    "comprehensive-codebase-audit": {
+      "description_cn": "Full-project audit for an unfamiliar codebase: explore structure, read docs+source+tests, assess architecture/code quality/testing/security, produce a structured severity-graded report with prioritized recommendations.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "debugging-hermes-tui-commands": {
+      "description_cn": "Debug Hermes TUI slash commands: Python, gateway, Ink UI.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "hermes-agent-skill-authoring": {
+      "description_cn": "Author in-repo SKILL.md: frontmatter, validator, structure, Chinese localization.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "hermes-external-skill-integration": {
+      "description_cn": "Integrate third-party skill repositories (ECC, community skill packs, monorepos) into Hermes Agent — component triage, symlink vs copy strategies, MCP config merging, and format compatibility checks. Windows/Linux/macOS.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "hermes-s6-container-supervision": {
+      "description_cn": "Modify, debug, or extend the s6-overlay supervision tree inside the Hermes Agent Docker image — adding new services, debugging profile gateways, understanding the Architecture B main-program pattern.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "node-inspect-debugger": {
+      "description_cn": "Debug Node.js via --inspect + Chrome DevTools Protocol CLI.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "plan": {
+      "description_cn": "Plan mode: write markdown plan to .hermes/plans/, no exec.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "python-debugpy": {
+      "description_cn": "Debug Python: pdb REPL + debugpy remote (DAP).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "requesting-code-review": {
+      "description_cn": "Pre-commit review: security scan, quality gates, auto-fix.",
+      "keywords_cn": [
+        "代码审查",
+        "PR审查",
+        "代码质量",
+        "安全扫描",
+        "质量门禁"
+      ],
+      "has_chinese": false
+    },
+    "scraper-safety-guardrails": {
+      "description_cn": "Build defense-in-depth anti-detection guardrails for AI-agent-operated web scrapers — prevent agents from triggering risk control through browser abuse, rapid requests, or accidental production access.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "software-adoption-evaluation": {
+      "description_cn": "Evaluate third-party software, tools, libraries, and frameworks for adoption. Map each component against the user's specific environment (OS, AI agent type, stack) before installing anything. Produce clear recommendations with rationale.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "spike": {
+      "description_cn": "Throwaway experiments to validate an idea before build.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "subagent-driven-development": {
+      "description_cn": "Execute plans via delegate_task subagents (2-stage review).",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "systematic-debugging": {
+      "description_cn": "4-phase root cause debugging: understand bugs before fixing.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "test-driven-development": {
+      "description_cn": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "writing-plans": {
+      "description_cn": "Write implementation plans: bite-sized tasks, paths, code.",
+      "keywords_cn": [],
+      "has_chinese": false
+    },
+    "yuanbao": {
+      "description_cn": "Yuanbao (元宝) groups: @mention users, query info/members.",
+      "keywords_cn": [],
+      "has_chinese": true
+    }
+  }
+}
