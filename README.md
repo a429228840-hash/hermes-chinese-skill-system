@@ -5,33 +5,50 @@
 <h1 align="center">Hermes 中文技能系统</h1>
 
 <p align="center">
-  <strong>让 AI Agent 听懂中文 —— 为 Hermes Agent 提供中文自然语言技能匹配、自动加载和智能搜索</strong>
+  <strong>还在为 Hermes 不自动调用技能烦恼吗？<br>说中文，它就能听懂。</strong>
 </p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
   <a href="https://github.com/a429228840-hash/hermes-chinese-skill-system"><img src="https://img.shields.io/badge/status-beta-orange" alt="Beta"></a>
+  <a href="https://github.com/a429228840-hash/hermes-chinese-skill-system/issues"><img src="https://img.shields.io/github/issues/a429228840-hash/hermes-chinese-skill-system" alt="Issues"></a>
 </p>
 
 ---
 
-## 📖 简介
+## 📖 这是什么？
 
-**Hermes 中文技能系统** 是一个为 [Hermes Agent](https://hermes-agent.nousresearch.com) 提供中文支持的插件 + 工具集。
+用 Hermes 时，你是不是也遇到过这些问题？
 
-核心能力：
+| 问题 | 解决 |
+|------|------|
+| 说"帮我写个 Django API"，模型没加载 Django 技能 | ✅ **自动加载** — 系统识别意图，自动加载相关技能入上下文 |
+| 技能列表全是英文，不知道哪个能用 | ✅ **中文搜索** — 说"爬虫 数据库 安全"就能找到 |
+| Agent 凭训练数据回答过时信息 | ✅ **研究守卫** — 检测研究意图，强制调 web_search |
+| pip 升级后中文功能丢了 | ✅ **插件化** — 核心逻辑在插件里，升级不丢失 |
 
-- 🎯 **中文自然语言自动加载** — 你说"帮我写个 Django API"，自动加载 Django 和 API 设计技能
-- 🔍 **中文技能搜索** — 用"爬虫 数据库 安全"这种中文关键词就能找到对应技能
-- 🛡️ **研究守卫** — 检测到"研究/调研/对比"等词时，强制调用 web_search 而不是凭训练数据回答
-- 🌏 **387 个技能的中文描述** — 覆盖 ECC 全部技能的中文说明和中文搜索关键词
-- 🔧 **pip 升级不丢失** — 插件化架构，升级 hermes-agent 后中文功能依然保留
+**一句话**：让 Hermes Agent 的中文用户能像说母语一样使用技能系统，不需要知道技能名、不需要翻英文列表。
 
 ### 适用于谁
 
 - 中文 Hermes 用户，用自然语言驱动 Agent 做开发、爬虫、运维
 - 不熟悉英文技能名的用户
 - 希望 Hermes 更好地理解中文指令的任何人
+
+---
+
+## ⚠️ 使用前必读
+
+> **这个项目是「增强插件」，不是「一键安装包」。** 你仍然需要 Hermes Agent 本体。
+
+| 注意事项 | 说明 |
+|---------|------|
+| **依赖 Hermes 插件系统** | 需要 Hermes ≥ 3.0。不支持旧版本。 |
+| **plugin.yaml 路径** | 插件必须放在 `~/.hermes/plugins/cn-skill-loader/` 并在 `config.yaml` 的 `plugins.enabled` 中启用 |
+| **pip 升级会覆盖补丁** | 升级 `hermes-agent` 后运行 `hermes-cn-patches.py` 恢复 |
+| **非官方项目** | 与 Nous Research 无关，不是 Hermes 官方出品 |
+| **仅限技能系统** | 本项目不做 CLI 汉化、文档翻译或 UI 本地化 |
+| **ECC 技能社区版** | 包含的技能中文描述是对 ECC 开源技能的衍生翻译，原技能版权归各自作者 |
 
 ---
 
