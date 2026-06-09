@@ -393,6 +393,56 @@ def skill_search_cn_handler(args: Dict[str, Any], **kw: Any) -> str:
         return json.dumps({"success": False, "error": str(e)})
 
 
+# ── Slash command handler ──────────────────────────────────────────────
+
+_SKILL_COMMANDS = {
+    "wiki": "claude-obsidian-wiki",
+    "wiki-ingest": "claude-obsidian-wiki-ingest",
+    "wiki-query": "claude-obsidian-wiki-query",
+    "wiki-retrieve": "claude-obsidian-wiki-retrieve",
+    "wiki-lint": "claude-obsidian-wiki-lint",
+    "wiki-fold": "claude-obsidian-wiki-fold",
+    "wiki-cli": "claude-obsidian-wiki-cli",
+    "wiki-mode": "claude-obsidian-wiki-mode",
+    "save": "claude-obsidian-save",
+    "think": "claude-obsidian-think",
+    "autoresearch": "claude-obsidian-autoresearch",
+    "canvas": "claude-obsidian-canvas",
+    "defuddle": "claude-obsidian-defuddle",
+    "obsidian-bases": "claude-obsidian-obsidian-bases",
+    "obsidian-markdown": "claude-obsidian-obsidian-markdown",
+}
+
+
+def _handle_skill_command(raw_args: str) -> str:
+    """Generic slash command handler.
+    
+    Usage: /<skill> [query text]
+    Loads the skill instructions into context.
+    """
+    from tools.skills_tool import skill_view
+    import json
+    
+    parts = raw_args.strip().split(None, 1) if raw_args.strip() else []
+    cmd = parts[0] if parts else ""
+    
+    # Look up skill by command name
+    skill_name = _SKILL_COMMANDS.get(cmd)
+    if not skill_name:
+        available = ", ".join(f"/{k}" for k in sorted(_SKILL_COMMANDS.keys()))
+        return f"Unknown skill. Available: {available}"
+    
+    result = skill_view(skill_name)
+    data = json.loads(result) if isinstance(result, str) else {}
+    
+    if isinstance(data, dict) and data.get("success"):
+        content = data.get("content", "")
+        # Show first 2000 chars as intro, rest loads on demand
+        return f"## {skill_name}\n\n{content[:2000]}"
+    else:
+        return f"Skill '{skill_name}' not found. Try `skill_search_cn` to search."
+
+
 # ── Plugin entry point ──────────────────────────────────────────────────
 
 def register(ctx):
@@ -406,4 +456,15 @@ def register(ctx):
         description="用中文搜索技能。支持模糊匹配中文关键词。",
         emoji="🔍",
     )
-    logger.info("cn-skill-loader plugin loaded: auto-loader + research guard + skill_search registered")
+    # Register slash commands for each skill
+    for cmd_name in _SKILL_COMMANDS:
+        ctx.register_command(
+            cmd_name,
+            handler=_handle_skill_command,
+            description=f"加载 {_SKILL_COMMANDS[cmd_name]} 技能",
+        )
+    count = len(_SKILL_COMMANDS)
+    logger.info(
+        "cn-skill-loader plugin loaded: auto-loader + research guard "
+        "+ skill_search + %d slash commands", count
+    )
