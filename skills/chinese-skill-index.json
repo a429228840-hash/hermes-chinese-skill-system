@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": "1.0.0",
-    "total_skills": 387,
-    "chinese_descriptions": 292
+    "total_skills": 403,
+    "chinese_descriptions": 293
   },
   "skills": {
     "apikey-image-gen": {
@@ -173,18 +173,19 @@
       "description_cn": "jd-spy 数据维度扩展 — 从搜索页和详情页提取评论数、促销标签、自营标识、排名历史等字段，追踪评论增长趋势",
       "keywords_cn": [
         "京东数据",
-        "商品信息",
-        "数据采集"
+        "数据采集",
+        "数据质量",
+        "数据审计"
       ],
       "has_chinese": true
     },
     "jd-spy-engine-merge": {
-      "description_cn": "jd-spy 双引擎合并方案 — CDP 主引擎 + OpenCLI 兜底引擎 + SlowMist 安全审计，统一编排",
+      "description_cn": "jd-spy OpenCLI 单引擎方案 — 搜索和详情全量使用 OpenCLI，CDP 废弃。含 SPU 归组、变动检测、两层审核闭环",
       "keywords_cn": [],
       "has_chinese": true
     },
     "jd-spy-iteration-orchestrator": {
-      "description_cn": "jd-spy 全自动迭代编排器 — 每次迭代从 plan → execute → verify → reflect 闭环，自动推进 roadmap",
+      "description_cn": "jd-spy 全自动迭代编排器 — 每次迭代从 plan → execute → Layer1验证 → Layer2独立子Agent审查 → auto-fix → [verified] commit 闭环，自动推进 roadmap",
       "keywords_cn": [],
       "has_chinese": true
     },
@@ -3313,6 +3314,159 @@
       "keywords_cn": [],
       "has_chinese": false
     },
+    "autoresearch": {
+      "description_cn": "\" Use when running autonomous iterative research: take a topic, run web searches, fetch sources, synthesize findings, and file everything into the wiki as structured pages. Based on Karpathy's autoresearch pattern: program.md configures objectives and constraints, the loop runs until depth is reached, output goes directly into the knowledge base. Triggers: \"autoresearch\", \"research [topic]\", \"deep dive into [topic]\", \"investigate [topic]\", \"find everything about [topic]\", \"research and file\", \"go research\", \"build a wiki on\".\"",
+      "keywords_cn": [
+        "自动研究",
+        "调研",
+        "资料收集",
+        "文献"
+      ],
+      "has_chinese": false
+    },
+    "canvas": {
+      "description_cn": "Use when working with the visual layer of the wiki: add images, text cards, PDFs, and wiki pages to Obsidian canvas files with auto-positioning inside zones. Integrates with banana for image capture. Triggers: canvas, canvas new, canvas add image, canvas add text, canvas add pdf, canvas add note, canvas zone, canvas list, canvas from banana, add to canvas, put this on the canvas, open canvas, create canvas.",
+      "keywords_cn": [
+        "Obsidian画布",
+        "可视化",
+        "白板",
+        "思维导图"
+      ],
+      "has_chinese": false
+    },
+    "defuddle": {
+      "description_cn": "Use when you need to strip clutter from web pages before ingesting into the wiki: removes ads, navigation, headers, footers, and boilerplate, leaving clean readable markdown that saves 40-60% tokens. Triggers: defuddle, clean this page, strip this url, fetch and clean, clean web content before ingesting, strip ads, remove clutter, clean URL content, readable markdown from URL.",
+      "keywords_cn": [
+        "HTML转Markdown",
+        "网页抓取",
+        "内容提取",
+        "清理"
+      ],
+      "has_chinese": false
+    },
+    "obsidian-bases": {
+      "description_cn": "Use when creating and editing Obsidian Bases (.base files): Obsidian's native database layer for dynamic tables, card views, list views, filters, formulas, and summaries over vault notes. Triggers: create a base, add a base file, obsidian bases, base view, filter notes, formula, database view, dynamic table, task tracker base, reading list base.",
+      "keywords_cn": [
+        "Obsidian数据库",
+        "表格",
+        "数据管理",
+        "属性"
+      ],
+      "has_chinese": false
+    },
+    "obsidian-markdown": {
+      "description_cn": "Use when writing correct Obsidian Flavored Markdown: wikilinks, embeds, callouts, properties, tags, highlights, math, and canvas syntax. Reference this when creating or editing any wiki page. Triggers: write obsidian note, obsidian syntax, wikilink, callout, embed, obsidian markdown, wikilink format, callout syntax, embed syntax, obsidian formatting, how to write obsidian markdown.",
+      "keywords_cn": [
+        "Obsidian格式",
+        "Markdown",
+        "链接",
+        "语法"
+      ],
+      "has_chinese": false
+    },
+    "save": {
+      "description_cn": "Save the current conversation, answer, or insight into the Obsidian wiki vault as a structured note. Analyzes the chat, determines the right note type, creates frontmatter, files it in the correct wiki folder, and updates index, log, and hot cache.",
+      "keywords_cn": [
+        "保存笔记",
+        "存档",
+        "记录",
+        "快照"
+      ],
+      "has_chinese": false
+    },
+    "think": {
+      "description_cn": "Apply the 10-principle thinking loop (OBSERVE-OBSERVE-LISTEN-THINK-CONNECT-CONNECT-FEEL-ACCEPT-CREATE-GROW) to any non-trivial problem. Walks Claude through external observation, metacognition, active listening, first-principles analysis, lateral connection, system orchestration, intuition, intellectual humility, generative output, and iterative growth.",
+      "keywords_cn": [
+        "思考",
+        "分析",
+        "深度思考",
+        "推理"
+      ],
+      "has_chinese": false
+    },
+    "wiki": {
+      "description_cn": "AI Agent + Obsidian knowledge companion. Sets up a persistent wiki vault, scaffolds structure from a one-sentence description, and routes to specialized sub-skills. Use for setup, scaffolding, cross-project referencing, and hot cache management.",
+      "keywords_cn": [
+        "Obsidian",
+        "知识库",
+        "维基",
+        "笔记",
+        "第二大脑",
+        "AI笔记"
+      ],
+      "has_chinese": false
+    },
+    "wiki-cli": {
+      "description_cn": "Default vault-mutation transport for claude-obsidian v1.7+. Wraps the Obsidian CLI (Obsidian 1.12+) as the preferred way to read, write, search, and modify vault notes from Claude — no MCP server, no REST API plugin, no TLS workarounds. Falls back to direct filesystem Read/Write/Edit when the CLI is unavailable.",
+      "keywords_cn": [
+        "Obsidian CLI",
+        "命令行",
+        "终端操作",
+        "笔记管理"
+      ],
+      "has_chinese": false
+    },
+    "wiki-fold": {
+      "description_cn": "Rollup of wiki log entries into meta-pages. Reads the last 2^k entries from wiki/log.md, writes a structurally-idempotent fold page to wiki/folds/ that links back to children. Extractive summarization (no invention). Dry-run by default, stdout-only; commit mode writes and accepts that the PostToolUse hook auto-commits.",
+      "keywords_cn": [
+        "笔记折叠",
+        "大纲",
+        "层级",
+        "组织结构"
+      ],
+      "has_chinese": false
+    },
+    "wiki-ingest": {
+      "description_cn": "Ingest sources into the Obsidian wiki vault. Reads a source, extracts entities and concepts, creates or updates wiki pages, cross-references, and logs the operation. Supports files, URLs, and batch mode.",
+      "keywords_cn": [
+        "知识摄入",
+        "文档导入",
+        "笔记整理",
+        "资料归档"
+      ],
+      "has_chinese": false
+    },
+    "wiki-lint": {
+      "description_cn": "Health check the Obsidian wiki vault. Finds orphan pages, dead wikilinks, stale claims, missing cross-references, frontmatter gaps, and empty sections. Creates or updates Dataview dashboards. Generates canvas maps.",
+      "keywords_cn": [
+        "笔记检查",
+        "格式检查",
+        "维基清理",
+        "链接修复"
+      ],
+      "has_chinese": false
+    },
+    "wiki-mode": {
+      "description_cn": "Methodology modes for the Compound Vault. Lets the vault declare an organizational style (LYT / PARA / Zettelkasten / Generic) that wiki-ingest, save, and autoresearch consult before filing new pages. Reads `.vault-meta/mode.json`; defaults to `generic` (v1.6/v1.7 behavior) when absent. Per the May 2026 compass artifact, methodology support was priority gap 5 — no other Claude+Obsidian competitor ships it as a first-class skill.",
+      "keywords_cn": [
+        "笔记模式",
+        "方法论",
+        "LYT",
+        "PARA",
+        "Zettelkasten"
+      ],
+      "has_chinese": false
+    },
+    "wiki-query": {
+      "description_cn": "Answer questions using the Obsidian wiki vault. Reads hot cache first, then index, then relevant pages. Synthesizes answers with citations. Files good answers back as wiki pages. Supports quick, standard, and deep modes.",
+      "keywords_cn": [
+        "知识查询",
+        "笔记搜索",
+        "维基搜索",
+        "信息检索"
+      ],
+      "has_chinese": false
+    },
+    "wiki-retrieve": {
+      "description_cn": "Hybrid retrieval primitive for the Compound Vault. Replaces the v1.6 static hot→index→drill read order with contextual-prefix + BM25 + cosine-rerank, modeled on Anthropic's Sept 2024 Contextual Retrieval research (35-49-67% retrieval-failure reduction). Opt-in via `bash bin/setup-retrieve.sh`; feature-detected by wiki-query and autoresearch.",
+      "keywords_cn": [
+        "知识检索",
+        "相关内容",
+        "关联查询",
+        "上下文"
+      ],
+      "has_chinese": false
+    },
     "obsidian": {
       "description_cn": "Read, search, create, and edit notes in the Obsidian vault.",
       "keywords_cn": [
@@ -3420,6 +3574,18 @@
         "自动加载器",
         "关键词匹配",
         "系统优化"
+      ],
+      "has_chinese": true
+    },
+    "cn-skill-system-iterative-workflow": {
+      "description_cn": "中文技能系统迭代工作流 — 对现有项目做多轮增量改进的 D-P-R-V 循环。全景诊断→优先级排序→逐项调研→批量并行执行→验证闭环。",
+      "keywords_cn": [
+        "工作流",
+        "迭代",
+        "增量改进",
+        "批量处理",
+        "P0/P1/P2",
+        "多轮优化"
       ],
       "has_chinese": true
     },
